@@ -1,0 +1,7 @@
+setenv ipaddr 192.168.50.100
+setenv ethaddr 22:17:b3:6b:e7:3c
+setenv serverip 192.168.50.21
+setenv bootargs console=${console},${baudrate} root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs  ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+nfs 0x83000000 192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs/boot/zImage
+nfs 0x84000000 192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs/boot/mys-imx6ull-14x14-evk-emmc.dtb
+bootz 0x83000000 - 0x84000000

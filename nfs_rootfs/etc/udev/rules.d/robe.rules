@@ -1,0 +1,7 @@
+
+ATTRS{name}=="UVC Camera (046d:081b)",SYMLINK+="00000_web_cam_c310_robe"
+ATTRS{manufacturer}=="PNY Technologies", ATTRS{serial}=="AA00000000008776", SYMLINK+="00000_u-disk_robe"
+ATTRS{product}=="USB3.0 Card Reader",ATTRS{serial}=="000000001532",SYMLINK+="0000_SD_CARDREADER_robe"
+
+
+

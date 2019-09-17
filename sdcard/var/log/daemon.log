@@ -1,0 +1,151 @@
+Mar 31 05:47:39 7060 systemd[1]: Started Load/Save Random Seed.
+Mar 31 05:47:39 7060 systemd[1]: Started Apply Kernel Variables.
+Mar 31 05:47:39 7060 systemd[1]: Starting Raise network interfaces...
+Mar 31 05:47:39 7060 systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 31 05:47:39 7060 systemd[1]: Started udev Kernel Device Manager.
+Mar 31 05:47:39 7060 systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 31 05:47:39 7060 systemd[1]: Starting Create Volatile Files and Directories...
+Mar 31 05:47:39 7060 systemd[1]: Started Create Volatile Files and Directories.
+Mar 31 05:47:39 7060 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 31 05:47:39 7060 systemd[1]: Starting Network Time Synchronization...
+Mar 31 05:47:39 7060 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 31 05:47:39 7060 systemd[1]: Started Raise network interfaces.
+Mar 31 05:47:39 7060 systemd[1]: Reached target Network.
+Mar 31 05:47:39 7060 systemd[1]: Started Network Time Synchronization.
+Mar 31 05:47:39 7060 systemd[1]: Reached target System Time Synchronized.
+Mar 31 05:47:39 7060 systemd-udevd[164]: Failed to apply ACL on /dev/dri/card0: Operation not supported
+Mar 31 05:47:39 7060 systemd-udevd[164]: Failed to apply ACL on /dev/video0: Operation not supported
+Mar 31 05:47:39 7060 systemd[1]: Created slice system-systemd\x2dbacklight.slice.
+Mar 31 05:47:39 7060 systemd[1]: Starting Load/Save Screen Backlight Brightness of backlight:backlight...
+Mar 31 05:47:39 7060 systemd[1]: Started udev Coldplug all Devices.
+Mar 31 05:47:39 7060 systemd[1]: Found device /dev/ttymxc0.
+Mar 31 05:47:39 7060 systemd[1]: Started Load/Save Screen Backlight Brightness of backlight:backlight.
+Mar 31 05:47:39 7060 systemd[1]: Reached target System Initialization.
+Mar 31 05:47:39 7060 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 31 05:47:39 7060 systemd[1]: apt-daily.timer: Adding 8h 54min 55.138940s random time.
+Mar 31 05:47:39 7060 systemd[1]: Started Daily apt download activities.
+Mar 31 05:47:39 7060 systemd[1]: apt-daily-upgrade.timer: Adding 11min 59.027173s random time.
+Mar 31 05:47:39 7060 systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 31 05:47:39 7060 systemd[1]: Reached target Timers.
+Mar 31 05:47:39 7060 systemd[1]: Reached target Basic System.
+Mar 31 05:47:39 7060 systemd[1]: Starting System Logging Service...
+Mar 31 05:47:39 7060 systemd[1]: Started Regular background program processing daemon.
+Mar 31 05:47:39 7060 systemd[1]: Starting getty on tty2-tty6 if dbus and logind are not available...
+Mar 31 05:47:39 7060 systemd[1]: Starting Permit User Sessions...
+Mar 31 05:47:39 7060 systemd[1]: Started Permit User Sessions.
+Mar 31 05:47:39 7060 systemd[1]: Started System Logging Service.
+Mar 31 05:47:39 7060 systemd-udevd[174]: Failed to apply ACL on /dev/snd/timer: Operation not supported
+Mar 31 05:47:40 7060 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty6.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty5.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty4.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty3.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty2.
+Mar 31 05:47:40 7060 systemd[1]: Started Getty on tty1.
+Mar 31 05:47:40 7060 systemd[1]: Started Serial Getty on ttymxc0.
+Mar 31 05:47:40 7060 systemd[1]: Reached target Login Prompts.
+Mar 31 05:47:40 7060 systemd[1]: Reached target Multi-User System.
+Mar 31 05:47:40 7060 systemd[1]: Reached target Graphical Interface.
+Mar 31 05:47:40 7060 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 31 05:47:40 7060 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 31 05:47:40 7060 systemd[1]: Startup finished in 10.654s (kernel) + 7.606s (userspace) = 18.260s.
+Mar 31 05:55:35 7060 systemd[1]: Started Load/Save Random Seed.
+Mar 31 05:55:35 7060 systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 31 05:55:35 7060 systemd[1]: Started Apply Kernel Variables.
+Mar 31 05:55:35 7060 systemd[1]: Starting Raise network interfaces...
+Mar 31 05:55:35 7060 systemd[1]: Started udev Kernel Device Manager.
+Mar 31 05:55:35 7060 systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 31 05:55:35 7060 systemd[1]: Starting Create Volatile Files and Directories...
+Mar 31 05:55:35 7060 systemd[1]: Started Create Volatile Files and Directories.
+Mar 31 05:55:35 7060 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 31 05:55:35 7060 systemd[1]: Starting Network Time Synchronization...
+Mar 31 05:55:35 7060 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 31 05:55:35 7060 systemd[1]: Started Raise network interfaces.
+Mar 31 05:55:35 7060 systemd[1]: Reached target Network.
+Mar 31 05:55:35 7060 systemd[1]: Started Network Time Synchronization.
+Mar 31 05:55:35 7060 systemd[1]: Reached target System Time Synchronized.
+Mar 31 05:55:35 7060 systemd-udevd[165]: Failed to apply ACL on /dev/dri/card0: Operation not supported
+Mar 31 05:55:35 7060 systemd-udevd[166]: Failed to apply ACL on /dev/video0: Operation not supported
+Mar 31 05:55:35 7060 systemd[1]: Created slice system-systemd\x2dbacklight.slice.
+Mar 31 05:55:35 7060 systemd[1]: Starting Load/Save Screen Backlight Brightness of backlight:backlight...
+Mar 31 05:55:35 7060 systemd[1]: Started udev Coldplug all Devices.
+Mar 31 05:55:35 7060 systemd[1]: Found device /dev/ttymxc0.
+Mar 31 05:55:35 7060 systemd[1]: Started Load/Save Screen Backlight Brightness of backlight:backlight.
+Mar 31 05:55:35 7060 systemd[1]: Reached target System Initialization.
+Mar 31 05:55:35 7060 systemd[1]: Reached target Basic System.
+Mar 31 05:55:35 7060 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 31 05:55:35 7060 systemd[1]: Starting Permit User Sessions...
+Mar 31 05:55:35 7060 systemd[1]: Starting getty on tty2-tty6 if dbus and logind are not available...
+Mar 31 05:55:35 7060 systemd[1]: Started Regular background program processing daemon.
+Mar 31 05:55:35 7060 systemd[1]: apt-daily.timer: Adding 2h 58min 17.868739s random time.
+Mar 31 05:55:35 7060 systemd[1]: Started Daily apt download activities.
+Mar 31 05:55:35 7060 systemd[1]: apt-daily-upgrade.timer: Adding 23min 53.397711s random time.
+Mar 31 05:55:35 7060 systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 31 05:55:35 7060 systemd[1]: Reached target Timers.
+Mar 31 05:55:35 7060 systemd[1]: Starting System Logging Service...
+Mar 31 05:55:35 7060 systemd[1]: Started Permit User Sessions.
+Mar 31 05:55:35 7060 systemd[1]: Started System Logging Service.
+Mar 31 05:55:35 7060 systemd-udevd[168]: Failed to apply ACL on /dev/snd/timer: Operation not supported
+Mar 31 05:55:35 7060 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty6.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty5.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty4.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty3.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty2.
+Mar 31 05:55:36 7060 systemd[1]: Started Serial Getty on ttymxc0.
+Mar 31 05:55:36 7060 systemd[1]: Started Getty on tty1.
+Mar 31 05:55:36 7060 systemd[1]: Reached target Login Prompts.
+Mar 31 05:55:36 7060 systemd[1]: Reached target Multi-User System.
+Mar 31 05:55:36 7060 systemd[1]: Reached target Graphical Interface.
+Mar 31 05:55:36 7060 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 31 05:55:36 7060 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 31 05:55:36 7060 systemd[1]: Startup finished in 10.606s (kernel) + 7.434s (userspace) = 18.040s.
+Mar 31 06:05:44 7060 systemd[1]: Started Load/Save Random Seed.
+Mar 31 06:05:44 7060 systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 31 06:05:44 7060 systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 31 06:05:44 7060 systemd[1]: Started udev Kernel Device Manager.
+Mar 31 06:05:44 7060 systemd[1]: Starting Create Volatile Files and Directories...
+Mar 31 06:05:44 7060 systemd[1]: Started Create Volatile Files and Directories.
+Mar 31 06:05:44 7060 systemd[1]: Starting Network Time Synchronization...
+Mar 31 06:05:44 7060 systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 31 06:05:44 7060 systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 31 06:05:44 7060 systemd[1]: Started Raise network interfaces.
+Mar 31 06:05:44 7060 systemd[1]: Reached target Network.
+Mar 31 06:05:44 7060 systemd[1]: Started Network Time Synchronization.
+Mar 31 06:05:44 7060 systemd[1]: Reached target System Time Synchronized.
+Mar 31 06:05:44 7060 systemd-udevd[164]: Failed to apply ACL on /dev/dri/card0: Operation not supported
+Mar 31 06:05:44 7060 systemd-udevd[167]: Failed to apply ACL on /dev/video0: Operation not supported
+Mar 31 06:05:44 7060 systemd[1]: Started udev Coldplug all Devices.
+Mar 31 06:05:44 7060 systemd[1]: Created slice system-systemd\x2dbacklight.slice.
+Mar 31 06:05:44 7060 systemd[1]: Starting Load/Save Screen Backlight Brightness of backlight:backlight...
+Mar 31 06:05:44 7060 systemd[1]: Found device /dev/ttymxc0.
+Mar 31 06:05:44 7060 systemd[1]: Started Load/Save Screen Backlight Brightness of backlight:backlight.
+Mar 31 06:05:44 7060 systemd[1]: Reached target System Initialization.
+Mar 31 06:05:44 7060 systemd[1]: apt-daily.timer: Adding 1h 5min 28.135982s random time.
+Mar 31 06:05:44 7060 systemd[1]: Started Daily apt download activities.
+Mar 31 06:05:44 7060 systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 31 06:05:44 7060 systemd[1]: apt-daily-upgrade.timer: Adding 59min 883.663ms random time.
+Mar 31 06:05:44 7060 systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 31 06:05:44 7060 systemd[1]: Reached target Timers.
+Mar 31 06:05:44 7060 systemd[1]: Reached target Basic System.
+Mar 31 06:05:44 7060 systemd[1]: Starting System Logging Service...
+Mar 31 06:05:44 7060 systemd[1]: Starting Permit User Sessions...
+Mar 31 06:05:44 7060 systemd[1]: Starting getty on tty2-tty6 if dbus and logind are not available...
+Mar 31 06:05:44 7060 systemd[1]: Started Regular background program processing daemon.
+Mar 31 06:05:44 7060 systemd[1]: Started Permit User Sessions.
+Mar 31 06:05:44 7060 systemd[1]: Started System Logging Service.
+Mar 31 06:05:44 7060 systemd-udevd[165]: Failed to apply ACL on /dev/snd/timer: Operation not supported
+Mar 31 06:05:45 7060 systemd[1]: Started getty on tty2-tty6 if dbus and logind are not available.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty6.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty5.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty4.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty3.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty2.
+Mar 31 06:05:45 7060 systemd[1]: Started Getty on tty1.
+Mar 31 06:05:45 7060 systemd[1]: Started Serial Getty on ttymxc0.
+Mar 31 06:05:45 7060 systemd[1]: Reached target Login Prompts.
+Mar 31 06:05:45 7060 systemd[1]: Reached target Multi-User System.
+Mar 31 06:05:45 7060 systemd[1]: Reached target Graphical Interface.
+Mar 31 06:05:45 7060 systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 31 06:05:45 7060 systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 31 06:05:45 7060 systemd[1]: Startup finished in 10.601s (kernel) + 7.488s (userspace) = 18.090s.

@@ -1,0 +1,3 @@
+Mar 31 05:47:51 7060 login[205]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+Mar 31 05:47:51 7060 login[205]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 31 05:47:51 7060 login[238]: ROOT LOGIN  on '/dev/ttymxc0'

@@ -1,0 +1,12 @@
+if TARGET_ROBE_MYS_Y6ULX
+
+config SYS_BOARD
+	default "robe_mys_y6ulx"
+
+config SYS_VENDOR
+	default "robe"
+
+config SYS_CONFIG_NAME
+	default "robe_mys_y6ulx"
+
+endif

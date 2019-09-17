@@ -1,0 +1,50 @@
+Jul  1 15:40:29 7060 kernel: On node 0 totalpages: 65536
+Jul  1 15:40:29 7060 kernel: free_area_init_node: node 0, pgdat 80c12c00, node_mem_map 8fdf7000
+Jul  1 15:40:29 7060 kernel:  Normal zone: 512 pages used for memmap
+Jul  1 15:40:29 7060 kernel:  Normal zone: 0 pages reserved
+Jul  1 15:40:29 7060 kernel:  Normal zone: 65536 pages, LIFO batch:15
+Jul  1 15:40:29 7060 kernel: pcpu-alloc: s16908 r8192 d24052 u49152 alloc=12*4096
+Jul  1 15:40:29 7060 kernel: pcpu-alloc: [0] 0 
+Jul  1 15:40:29 7060 kernel: libata version 3.00 loaded.
+Jul  1 15:40:29 7060 kernel: evbug: Connected device: input0 (20cc000.snvs:snvs-powerkey at snvs-pwrkey/input0)
+Jul  1 15:40:29 7060 kernel: evbug: Connected device: input1 (iMX6UL TouchScreen Controller at unknown)
+Jul  5 10:16:05 7060 kernel: On node 0 totalpages: 65536
+Jul  5 10:16:05 7060 kernel: free_area_init_node: node 0, pgdat 80c12c00, node_mem_map 8fdf7000
+Jul  5 10:16:05 7060 kernel:  Normal zone: 512 pages used for memmap
+Jul  5 10:16:05 7060 kernel:  Normal zone: 0 pages reserved
+Jul  5 10:16:05 7060 kernel:  Normal zone: 65536 pages, LIFO batch:15
+Jul  5 10:16:05 7060 kernel: pcpu-alloc: s16908 r8192 d24052 u49152 alloc=12*4096
+Jul  5 10:16:05 7060 kernel: pcpu-alloc: [0] 0 
+Jul  5 10:16:05 7060 kernel: libata version 3.00 loaded.
+Jul  5 10:16:05 7060 kernel: evbug: Connected device: input0 (20cc000.snvs:snvs-powerkey at snvs-pwrkey/input0)
+Jul  5 10:16:05 7060 kernel: evbug: Connected device: input1 (iMX6UL TouchScreen Controller at unknown)
+Jul  5 13:05:28 7060 kernel: On node 0 totalpages: 65536
+Jul  5 13:05:28 7060 kernel: free_area_init_node: node 0, pgdat 80c12c00, node_mem_map 8fdf7000
+Jul  5 13:05:28 7060 kernel:  Normal zone: 512 pages used for memmap
+Jul  5 13:05:28 7060 kernel:  Normal zone: 0 pages reserved
+Jul  5 13:05:28 7060 kernel:  Normal zone: 65536 pages, LIFO batch:15
+Jul  5 13:05:28 7060 kernel: pcpu-alloc: s16908 r8192 d24052 u49152 alloc=12*4096
+Jul  5 13:05:28 7060 kernel: pcpu-alloc: [0] 0 
+Jul  5 13:05:28 7060 kernel: libata version 3.00 loaded.
+Jul  5 13:05:28 7060 kernel: evbug: Connected device: input0 (20cc000.snvs:snvs-powerkey at snvs-pwrkey/input0)
+Jul  5 13:05:28 7060 kernel: evbug: Connected device: input1 (iMX6UL TouchScreen Controller at unknown)
+Jul  5 13:59:06 7060 kernel: On node 0 totalpages: 65536
+Jul  5 13:59:06 7060 kernel: free_area_init_node: node 0, pgdat 80c12c00, node_mem_map 8fdf7000
+Jul  5 13:59:06 7060 kernel:  Normal zone: 512 pages used for memmap
+Jul  5 13:59:06 7060 kernel:  Normal zone: 0 pages reserved
+Jul  5 13:59:06 7060 kernel:  Normal zone: 65536 pages, LIFO batch:15
+Jul  5 13:59:06 7060 kernel: pcpu-alloc: s16908 r8192 d24052 u49152 alloc=12*4096
+Jul  5 13:59:06 7060 kernel: pcpu-alloc: [0] 0 
+Jul  5 13:59:06 7060 kernel: libata version 3.00 loaded.
+Jul  5 13:59:06 7060 kernel: evbug: Connected device: input0 (20cc000.snvs:snvs-powerkey at snvs-pwrkey/input0)
+Jul  5 13:59:06 7060 kernel: evbug: Connected device: input1 (iMX6UL TouchScreen Controller at unknown)
+Jun 29 19:24:25 7060 kernel: On node 0 totalpages: 65536
+Jun 29 19:24:25 7060 kernel: free_area_init_node: node 0, pgdat 80c12c00, node_mem_map 8fdf7000
+Jun 29 19:24:25 7060 kernel:  Normal zone: 512 pages used for memmap
+Jun 29 19:24:25 7060 kernel:  Normal zone: 0 pages reserved
+Jun 29 19:24:25 7060 kernel:  Normal zone: 65536 pages, LIFO batch:15
+Jun 29 19:24:25 7060 kernel: pcpu-alloc: s16908 r8192 d24052 u49152 alloc=12*4096
+Jun 29 19:24:25 7060 kernel: pcpu-alloc: [0] 0 
+Jun 29 19:24:25 7060 kernel: libata version 3.00 loaded.
+Jun 29 19:24:25 7060 kernel: evbug: Connected device: input0 (20cc000.snvs:snvs-powerkey at snvs-pwrkey/input0)
+Jun 29 19:24:25 7060 kernel: evbug: Connected device: input1 (iMX6UL TouchScreen Controller at unknown)

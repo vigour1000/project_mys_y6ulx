@@ -1,0 +1,1201 @@
+Jul  1 06:25:05 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="201" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jul  1 15:40:29 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="201" x-info="http://www.rsyslog.com"] start
+Jul  1 15:40:29 7060 kernel: Booting Linux on physical CPU 0x0
+Jul  1 15:40:29 7060 kernel: Linux version 4.1.15 (root@dell) (gcc version 6.3.1 20170109 (Linaro GCC 6.3-2017.02) ) #1 SMP PREEMPT Sun Jun 30 03:59:10 CST 2019
+Jul  1 15:40:29 7060 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+Jul  1 15:40:29 7060 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jul  1 15:40:29 7060 kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Jul  1 15:40:29 7060 kernel: Reserved memory: failed to allocate memory for node 'linux,cma'
+Jul  1 15:40:29 7060 kernel: Memory policy: Data cache writealloc
+Jul  1 15:40:29 7060 kernel: PERCPU: Embedded 12 pages/cpu @8fdd4000 s16908 r8192 d24052 u49152
+Jul  1 15:40:29 7060 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jul  1 15:40:29 7060 kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+Jul  1 15:40:29 7060 kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  1 15:40:29 7060 kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jul  1 15:40:29 7060 kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  1 15:40:29 7060 kernel: Memory: 246880K/262144K available (8516K kernel code, 439K rwdata, 2944K rodata, 432K init, 450K bss, 15264K reserved, 0K cma-reserved, 0K highmem)
+Jul  1 15:40:29 7060 kernel: Virtual kernel memory layout:
+Jul  1 15:40:29 7060 kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jul  1 15:40:29 7060 kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jul  1 15:40:29 7060 kernel:    vmalloc : 0x90800000 - 0xff000000   (1768 MB)
+Jul  1 15:40:29 7060 kernel:    lowmem  : 0x80000000 - 0x90000000   ( 256 MB)
+Jul  1 15:40:29 7060 kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jul  1 15:40:29 7060 kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Jul  1 15:40:29 7060 kernel:      .text : 0x80008000 - 0x80b393d4   (11461 kB)
+Jul  1 15:40:29 7060 kernel:      .init : 0x80b3a000 - 0x80ba6000   ( 432 kB)
+Jul  1 15:40:29 7060 kernel:      .data : 0x80ba6000 - 0x80c13de0   ( 440 kB)
+Jul  1 15:40:29 7060 kernel:       .bss : 0x80c16000 - 0x80c86a40   ( 451 kB)
+Jul  1 15:40:29 7060 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  1 15:40:29 7060 kernel: Preemptible hierarchical RCU implementation.
+Jul  1 15:40:29 7060 kernel: 	Additional per-CPU info printed with stalls.
+Jul  1 15:40:29 7060 kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jul  1 15:40:29 7060 kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jul  1 15:40:29 7060 kernel: NR_IRQS:16 nr_irqs:16 16
+Jul  1 15:40:29 7060 kernel: mxc_clocksource_init 24000000
+Jul  1 15:40:29 7060 kernel: Switching to timer-based delay loop, resolution 41ns
+Jul  1 15:40:29 7060 kernel: sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jul  1 15:40:29 7060 kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jul  1 15:40:29 7060 kernel: Console: colour dummy device 80x30
+Jul  1 15:40:29 7060 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jul  1 15:40:29 7060 kernel: pid_max: default: 32768 minimum: 301
+Jul  1 15:40:29 7060 kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  1 15:40:29 7060 kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  1 15:40:29 7060 kernel: CPU: Testing write buffer coherency: ok
+Jul  1 15:40:29 7060 kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jul  1 15:40:29 7060 kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Jul  1 15:40:29 7060 kernel: Brought up 1 CPUs
+Jul  1 15:40:29 7060 kernel: SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jul  1 15:40:29 7060 kernel: CPU: All CPU(s) started in SVC mode.
+Jul  1 15:40:29 7060 kernel: devtmpfs: initialized
+Jul  1 15:40:29 7060 kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Jul  1 15:40:29 7060 kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jul  1 15:40:29 7060 kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jul  1 15:40:29 7060 kernel: pinctrl core: initialized pinctrl subsystem
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 16
+Jul  1 15:40:29 7060 kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jul  1 15:40:29 7060 kernel: cpuidle: using governor ladder
+Jul  1 15:40:29 7060 kernel: cpuidle: using governor menu
+Jul  1 15:40:29 7060 kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jul  1 15:40:29 7060 kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jul  1 15:40:29 7060 kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Jul  1 15:40:29 7060 kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Jul  1 15:40:29 7060 kernel: mxs-dma 1804000.dma-apbh: initialized
+Jul  1 15:40:29 7060 kernel: SCSI subsystem initialized
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver usbfs
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver hub
+Jul  1 15:40:29 7060 kernel: usbcore: registered new device driver usb
+Jul  1 15:40:29 7060 kernel: i2c i2c-1: IMX I2C adapter registered
+Jul  1 15:40:29 7060 kernel: i2c i2c-1: can't use DMA
+Jul  1 15:40:29 7060 kernel: media: Linux media interface: v0.10
+Jul  1 15:40:29 7060 kernel: Linux video capture interface: v2.00
+Jul  1 15:40:29 7060 kernel: pps_core: LinuxPPS API ver. 1 registered
+Jul  1 15:40:29 7060 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul  1 15:40:29 7060 kernel: PTP clock support registered
+Jul  1 15:40:29 7060 kernel: MIPI CSI2 driver module loaded
+Jul  1 15:40:29 7060 kernel: Advanced Linux Sound Architecture Driver Initialized.
+Jul  1 15:40:29 7060 kernel: Bluetooth: Core ver 2.20
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 31
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI device and connection manager initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI socket layer initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: L2CAP socket layer initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: SCO socket layer initialized
+Jul  1 15:40:29 7060 kernel: Switched to clocksource mxc_timer1
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 2
+Jul  1 15:40:29 7060 kernel: TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Jul  1 15:40:29 7060 kernel: TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Jul  1 15:40:29 7060 kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jul  1 15:40:29 7060 kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jul  1 15:40:29 7060 kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 1
+Jul  1 15:40:29 7060 kernel: RPC: Registered named UNIX socket transport module.
+Jul  1 15:40:29 7060 kernel: RPC: Registered udp transport module.
+Jul  1 15:40:29 7060 kernel: RPC: Registered tcp transport module.
+Jul  1 15:40:29 7060 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  1 15:40:29 7060 kernel: imx rpmsg driver is registered.
+Jul  1 15:40:29 7060 kernel: Bus freq driver module loaded
+Jul  1 15:40:29 7060 kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Jul  1 15:40:29 7060 kernel: VFS: Disk quotas dquot_6.6.0
+Jul  1 15:40:29 7060 kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jul  1 15:40:29 7060 kernel: NFS: Registering the id_resolver key type
+Jul  1 15:40:29 7060 kernel: Key type id_resolver registered
+Jul  1 15:40:29 7060 kernel: Key type id_legacy registered
+Jul  1 15:40:29 7060 kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jul  1 15:40:29 7060 kernel: fuse init (API version 7.23)
+Jul  1 15:40:29 7060 kernel: io scheduler noop registered
+Jul  1 15:40:29 7060 kernel: io scheduler deadline registered
+Jul  1 15:40:29 7060 kernel: io scheduler cfq registered (default)
+Jul  1 15:40:29 7060 kernel: imx-weim 21b8000.weim: Driver registered.
+Jul  1 15:40:29 7060 kernel: backlight supply power not found, using dummy regulator
+Jul  1 15:40:29 7060 kernel: MIPI DSI driver module loaded
+Jul  1 15:40:29 7060 kernel: MIPI DSI driver module loaded
+Jul  1 15:40:29 7060 kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Jul  1 15:40:29 7060 kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Jul  1 15:40:29 7060 kernel: Console: switching to colour frame buffer device 60x34
+Jul  1 15:40:29 7060 kernel: mxsfb 21c8000.lcdif: initialized
+Jul  1 15:40:29 7060 kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Jul  1 15:40:29 7060 kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Jul  1 15:40:29 7060 kernel: imx-sdma 20ec000.sdma: initialized
+Jul  1 15:40:29 7060 kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Jul  1 15:40:29 7060 kernel: console [ttymxc0] enabled
+Jul  1 15:40:29 7060 kernel: imx-rng 2284000.rngb: iMX RNG Registered.
+Jul  1 15:40:29 7060 kernel: imx sema4 driver is registered.
+Jul  1 15:40:29 7060 kernel: [drm] Initialized drm 1.1.0 20060810
+Jul  1 15:40:29 7060 kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Jul  1 15:40:29 7060 kernel: brd: module loaded
+Jul  1 15:40:29 7060 kernel: loop: module loaded
+Jul  1 15:40:29 7060 kernel: CAN device driver interface
+Jul  1 15:40:29 7060 kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Jul  1 15:40:29 7060 kernel: pps pps0: new PPS source ptp0
+Jul  1 15:40:29 7060 kernel: libphy: fec_enet_mii_bus: probed
+Jul  1 15:40:29 7060 kernel: fec 2188000.ethernet eth0: registered PHC device 0
+Jul  1 15:40:29 7060 kernel: PPP generic driver version 2.4.2
+Jul  1 15:40:29 7060 kernel: PPP BSD Compression module registered
+Jul  1 15:40:29 7060 kernel: PPP Deflate Compression module registered
+Jul  1 15:40:29 7060 kernel: PPP MPPE Compression module registered
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 24
+Jul  1 15:40:29 7060 kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+Jul  1 15:40:29 7060 kernel: CSLIP: code copyright 1989 Regents of the University of California.
+Jul  1 15:40:29 7060 kernel: SLIP linefill/keepalive option.
+Jul  1 15:40:29 7060 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  1 15:40:29 7060 kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver usb-storage
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver usb_ehset_test
+Jul  1 15:40:29 7060 kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Jul  1 15:40:29 7060 kernel: 2184200.usb supply vbus not found, using dummy regulator
+Jul  1 15:40:29 7060 kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Jul  1 15:40:29 7060 kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Jul  1 15:40:29 7060 kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Jul  1 15:40:29 7060 kernel: hub 1-0:1.0: USB hub found
+Jul  1 15:40:29 7060 kernel: hub 1-0:1.0: 1 port detected
+Jul  1 15:40:29 7060 kernel: mousedev: PS/2 mouse device common for all mice
+Jul  1 15:40:29 7060 kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Jul  1 15:40:29 7060 kernel: tp reset gpio=131
+Jul  1 15:40:29 7060 kernel: ft5x06_ts: probe of 1-0038 failed with error 161
+Jul  1 15:40:29 7060 kernel: ft5x0x_ts_init successful
+Jul  1 15:40:29 7060 kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Jul  1 15:40:29 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Jul  1 15:40:29 7060 kernel: i2c /dev entries driver
+Jul  1 15:40:29 7060 kernel: IR NEC protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR RC5(x/sz) protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR RC6 protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR JVC protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR Sony protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR SANYO protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR Sharp protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR MCE Keyboard/mouse protocol handler initialized
+Jul  1 15:40:29 7060 kernel: IR XMP protocol handler initialized
+Jul  1 15:40:29 7060 kernel: pxp-v4l2 pxp_v4l2: initialized
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver uvcvideo
+Jul  1 15:40:29 7060 kernel: USB Video Class driver (1.1.1)
+Jul  1 15:40:29 7060 kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Jul  1 15:40:29 7060 kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI UART driver ver 2.3
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI UART protocol H4 registered
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI UART protocol BCSP registered
+Jul  1 15:40:29 7060 kernel: Bluetooth: HCI UART protocol ATH3K registered
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver btusb
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver ath3k
+Jul  1 15:40:29 7060 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jul  1 15:40:29 7060 kernel: sdhci: Copyright(c) Pierre Ossman
+Jul  1 15:40:29 7060 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jul  1 15:40:29 7060 kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: could not get ultra high speed state, work on normal mode
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vmmc regulator found
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Jul  1 15:40:29 7060 kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Jul  1 15:40:29 7060 kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Jul  1 15:40:29 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Jul  1 15:40:29 7060 kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Jul  1 15:40:29 7060 kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Jul  1 15:40:29 7060 kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Jul  1 15:40:29 7060 kernel: mmc0: new high speed SDHC card at address aaaa
+Jul  1 15:40:29 7060 kernel: mmcblk0: mmc0:aaaa SS16G 14.8 GiB 
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver usbhid
+Jul  1 15:40:29 7060 kernel: mmcblk0: p1 p2
+Jul  1 15:40:29 7060 kernel: usbhid: USB HID core driver
+Jul  1 15:40:29 7060 kernel: usbcore: registered new interface driver snd-usb-audio
+Jul  1 15:40:29 7060 kernel: fsl-asrc 2034000.asrc: driver registered
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 26
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 10
+Jul  1 15:40:29 7060 kernel: sit: IPv6 over IPv4 tunneling driver
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 17
+Jul  1 15:40:29 7060 kernel: can: controller area network core (rev 20120528 abi 9)
+Jul  1 15:40:29 7060 kernel: NET: Registered protocol family 29
+Jul  1 15:40:29 7060 kernel: can: raw protocol (rev 20120528)
+Jul  1 15:40:29 7060 kernel: can: broadcast manager protocol (rev 20120528 t)
+Jul  1 15:40:29 7060 kernel: can: netlink gateway (rev 20130117) max_hops=1
+Jul  1 15:40:29 7060 kernel: hub 1-1:1.0: USB hub found
+Jul  1 15:40:29 7060 kernel: hub 1-1:1.0: 2 ports detected
+Jul  1 15:40:29 7060 kernel: Bluetooth: RFCOMM TTY layer initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: RFCOMM socket layer initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: RFCOMM ver 1.11
+Jul  1 15:40:29 7060 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jul  1 15:40:29 7060 kernel: Bluetooth: BNEP filters: protocol multicast
+Jul  1 15:40:29 7060 kernel: Bluetooth: BNEP socket layer initialized
+Jul  1 15:40:29 7060 kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Jul  1 15:40:29 7060 kernel: Bluetooth: HIDP socket layer initialized
+Jul  1 15:40:29 7060 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jul  1 15:40:29 7060 kernel: Key type dns_resolver registered
+Jul  1 15:40:29 7060 kernel: dhd_module_init in
+Jul  1 15:40:29 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 2019-07-01 15:39:49 UTC (1561995589)
+Jul  1 15:40:29 7060 kernel: fec 2188000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=2188000.ethernet:00, irq=-1)
+Jul  1 15:40:29 7060 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  1 15:40:29 7060 kernel: usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+Jul  1 15:40:29 7060 kernel: fec 2188000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jul  1 15:40:29 7060 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  1 15:40:29 7060 kernel: IP-Config: Complete:
+Jul  1 15:40:29 7060 kernel:     device=eth0, hwaddr=22:17:b3:6b:e7:3c, ipaddr=192.168.50.100, mask=255.255.255.0, gw=192.168.50.1
+Jul  1 15:40:29 7060 kernel:     host=192.168.50.100, domain=, nis-domain=(none)
+Jul  1 15:40:29 7060 kernel:     bootserver=192.168.50.21, rootserver=192.168.50.21, rootpath=
+Jul  1 15:40:29 7060 kernel: gpio_dvfs: disabling
+Jul  1 15:40:29 7060 kernel: VSD_3V3: disabling
+Jul  1 15:40:29 7060 kernel: can-3v3: disabling
+Jul  1 15:40:29 7060 kernel: ALSA device list:
+Jul  1 15:40:29 7060 kernel:  No soundcards found.
+Jul  1 15:40:29 7060 kernel: VFS: Mounted root (nfs filesystem) on device 0:14.
+Jul  1 15:40:29 7060 kernel: devtmpfs: mounted
+Jul  1 15:40:29 7060 kernel: Freeing unused kernel memory: 432K (80b3a000 - 80ba6000)
+Jul  1 15:40:29 7060 kernel: random: systemd urandom read with 81 bits of entropy available
+Jul  1 15:40:29 7060 kernel: random: nonblocking pool is initialized
+Jul  5 10:16:05 7060 kernel: Booting Linux on physical CPU 0x0
+Jul  5 10:16:05 7060 kernel: Linux version 4.1.15 (root@dell) (gcc version 6.3.1 20170109 (Linaro GCC 6.3-2017.02) ) #1 SMP PREEMPT Sun Jun 30 03:59:10 CST 2019
+Jul  5 10:16:05 7060 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+Jul  5 10:16:05 7060 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jul  5 10:16:05 7060 kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Jul  5 10:16:05 7060 kernel: Reserved memory: failed to allocate memory for node 'linux,cma'
+Jul  5 10:16:05 7060 kernel: Memory policy: Data cache writealloc
+Jul  5 10:16:05 7060 kernel: PERCPU: Embedded 12 pages/cpu @8fdd4000 s16908 r8192 d24052 u49152
+Jul  5 10:16:05 7060 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jul  5 10:16:05 7060 kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+Jul  5 10:16:05 7060 kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 10:16:05 7060 kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jul  5 10:16:05 7060 kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  5 10:16:05 7060 kernel: Memory: 246880K/262144K available (8516K kernel code, 439K rwdata, 2944K rodata, 432K init, 450K bss, 15264K reserved, 0K cma-reserved, 0K highmem)
+Jul  5 10:16:05 7060 kernel: Virtual kernel memory layout:
+Jul  5 10:16:05 7060 kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jul  5 10:16:05 7060 kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jul  5 10:16:05 7060 kernel:    vmalloc : 0x90800000 - 0xff000000   (1768 MB)
+Jul  5 10:16:05 7060 kernel:    lowmem  : 0x80000000 - 0x90000000   ( 256 MB)
+Jul  5 10:16:05 7060 kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jul  5 10:16:05 7060 kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Jul  5 10:16:05 7060 kernel:      .text : 0x80008000 - 0x80b393d4   (11461 kB)
+Jul  5 10:16:05 7060 kernel:      .init : 0x80b3a000 - 0x80ba6000   ( 432 kB)
+Jul  5 10:16:05 7060 kernel:      .data : 0x80ba6000 - 0x80c13de0   ( 440 kB)
+Jul  5 10:16:05 7060 kernel:       .bss : 0x80c16000 - 0x80c86a40   ( 451 kB)
+Jul  5 10:16:05 7060 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  5 10:16:05 7060 kernel: Preemptible hierarchical RCU implementation.
+Jul  5 10:16:05 7060 kernel: 	Additional per-CPU info printed with stalls.
+Jul  5 10:16:05 7060 kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jul  5 10:16:05 7060 kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jul  5 10:16:05 7060 kernel: NR_IRQS:16 nr_irqs:16 16
+Jul  5 10:16:05 7060 kernel: mxc_clocksource_init 24000000
+Jul  5 10:16:05 7060 kernel: Switching to timer-based delay loop, resolution 41ns
+Jul  5 10:16:05 7060 kernel: sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jul  5 10:16:05 7060 kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jul  5 10:16:05 7060 kernel: Console: colour dummy device 80x30
+Jul  5 10:16:05 7060 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jul  5 10:16:05 7060 kernel: pid_max: default: 32768 minimum: 301
+Jul  5 10:16:05 7060 kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 10:16:05 7060 kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 10:16:05 7060 kernel: CPU: Testing write buffer coherency: ok
+Jul  5 10:16:05 7060 kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jul  5 10:16:05 7060 kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Jul  5 10:16:05 7060 kernel: Brought up 1 CPUs
+Jul  5 10:16:05 7060 kernel: SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jul  5 10:16:05 7060 kernel: CPU: All CPU(s) started in SVC mode.
+Jul  5 10:16:05 7060 kernel: devtmpfs: initialized
+Jul  5 10:16:05 7060 kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Jul  5 10:16:05 7060 kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jul  5 10:16:05 7060 kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jul  5 10:16:05 7060 kernel: pinctrl core: initialized pinctrl subsystem
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 16
+Jul  5 10:16:05 7060 kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jul  5 10:16:05 7060 kernel: cpuidle: using governor ladder
+Jul  5 10:16:05 7060 kernel: cpuidle: using governor menu
+Jul  5 10:16:05 7060 kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jul  5 10:16:05 7060 kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jul  5 10:16:05 7060 kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Jul  5 10:16:05 7060 kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Jul  5 10:16:05 7060 kernel: mxs-dma 1804000.dma-apbh: initialized
+Jul  5 10:16:05 7060 kernel: SCSI subsystem initialized
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver usbfs
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver hub
+Jul  5 10:16:05 7060 kernel: usbcore: registered new device driver usb
+Jul  5 10:16:05 7060 kernel: i2c i2c-1: IMX I2C adapter registered
+Jul  5 10:16:05 7060 kernel: i2c i2c-1: can't use DMA
+Jul  5 10:16:05 7060 kernel: media: Linux media interface: v0.10
+Jul  5 10:16:05 7060 kernel: Linux video capture interface: v2.00
+Jul  5 10:16:05 7060 kernel: pps_core: LinuxPPS API ver. 1 registered
+Jul  5 10:16:05 7060 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul  5 10:16:05 7060 kernel: PTP clock support registered
+Jul  5 10:16:05 7060 kernel: MIPI CSI2 driver module loaded
+Jul  5 10:16:05 7060 kernel: Advanced Linux Sound Architecture Driver Initialized.
+Jul  5 10:16:05 7060 kernel: Bluetooth: Core ver 2.20
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 31
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI device and connection manager initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI socket layer initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: L2CAP socket layer initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: SCO socket layer initialized
+Jul  5 10:16:05 7060 kernel: Switched to clocksource mxc_timer1
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 2
+Jul  5 10:16:05 7060 kernel: TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Jul  5 10:16:05 7060 kernel: TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Jul  5 10:16:05 7060 kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jul  5 10:16:05 7060 kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 10:16:05 7060 kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 1
+Jul  5 10:16:05 7060 kernel: RPC: Registered named UNIX socket transport module.
+Jul  5 10:16:05 7060 kernel: RPC: Registered udp transport module.
+Jul  5 10:16:05 7060 kernel: RPC: Registered tcp transport module.
+Jul  5 10:16:05 7060 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  5 10:16:05 7060 kernel: imx rpmsg driver is registered.
+Jul  5 10:16:05 7060 kernel: Bus freq driver module loaded
+Jul  5 10:16:05 7060 kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Jul  5 10:16:05 7060 kernel: VFS: Disk quotas dquot_6.6.0
+Jul  5 10:16:05 7060 kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jul  5 10:16:05 7060 kernel: NFS: Registering the id_resolver key type
+Jul  5 10:16:05 7060 kernel: Key type id_resolver registered
+Jul  5 10:16:05 7060 kernel: Key type id_legacy registered
+Jul  5 10:16:05 7060 kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jul  5 10:16:05 7060 kernel: fuse init (API version 7.23)
+Jul  5 10:16:05 7060 kernel: io scheduler noop registered
+Jul  5 10:16:05 7060 kernel: io scheduler deadline registered
+Jul  5 10:16:05 7060 kernel: io scheduler cfq registered (default)
+Jul  5 10:16:05 7060 kernel: imx-weim 21b8000.weim: Driver registered.
+Jul  5 10:16:05 7060 kernel: backlight supply power not found, using dummy regulator
+Jul  5 10:16:05 7060 kernel: MIPI DSI driver module loaded
+Jul  5 10:16:05 7060 kernel: MIPI DSI driver module loaded
+Jul  5 10:16:05 7060 kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Jul  5 10:16:05 7060 kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Jul  5 10:16:05 7060 kernel: Console: switching to colour frame buffer device 60x34
+Jul  5 10:16:05 7060 kernel: mxsfb 21c8000.lcdif: initialized
+Jul  5 10:16:05 7060 kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Jul  5 10:16:05 7060 kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Jul  5 10:16:05 7060 kernel: imx-sdma 20ec000.sdma: initialized
+Jul  5 10:16:05 7060 kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Jul  5 10:16:05 7060 kernel: console [ttymxc0] enabled
+Jul  5 10:16:05 7060 kernel: imx-rng 2284000.rngb: iMX RNG Registered.
+Jul  5 10:16:05 7060 kernel: imx sema4 driver is registered.
+Jul  5 10:16:05 7060 kernel: [drm] Initialized drm 1.1.0 20060810
+Jul  5 10:16:05 7060 kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Jul  5 10:16:05 7060 kernel: brd: module loaded
+Jul  5 10:16:05 7060 kernel: loop: module loaded
+Jul  5 10:16:05 7060 kernel: CAN device driver interface
+Jul  5 10:16:05 7060 kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Jul  5 10:16:05 7060 kernel: pps pps0: new PPS source ptp0
+Jul  5 10:16:05 7060 kernel: libphy: fec_enet_mii_bus: probed
+Jul  5 10:16:05 7060 kernel: fec 2188000.ethernet eth0: registered PHC device 0
+Jul  5 10:16:05 7060 kernel: PPP generic driver version 2.4.2
+Jul  5 10:16:05 7060 kernel: PPP BSD Compression module registered
+Jul  5 10:16:05 7060 kernel: PPP Deflate Compression module registered
+Jul  5 10:16:05 7060 kernel: PPP MPPE Compression module registered
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 24
+Jul  5 10:16:05 7060 kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+Jul  5 10:16:05 7060 kernel: CSLIP: code copyright 1989 Regents of the University of California.
+Jul  5 10:16:05 7060 kernel: SLIP linefill/keepalive option.
+Jul  5 10:16:05 7060 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  5 10:16:05 7060 kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver usb-storage
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver usb_ehset_test
+Jul  5 10:16:05 7060 kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Jul  5 10:16:05 7060 kernel: 2184200.usb supply vbus not found, using dummy regulator
+Jul  5 10:16:05 7060 kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Jul  5 10:16:05 7060 kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Jul  5 10:16:05 7060 kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Jul  5 10:16:05 7060 kernel: hub 1-0:1.0: USB hub found
+Jul  5 10:16:05 7060 kernel: hub 1-0:1.0: 1 port detected
+Jul  5 10:16:05 7060 kernel: mousedev: PS/2 mouse device common for all mice
+Jul  5 10:16:05 7060 kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Jul  5 10:16:05 7060 kernel: tp reset gpio=131
+Jul  5 10:16:05 7060 kernel: ft5x06_ts: probe of 1-0038 failed with error 161
+Jul  5 10:16:05 7060 kernel: ft5x0x_ts_init successful
+Jul  5 10:16:05 7060 kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Jul  5 10:16:05 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Jul  5 10:16:05 7060 kernel: i2c /dev entries driver
+Jul  5 10:16:05 7060 kernel: IR NEC protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR RC5(x/sz) protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR RC6 protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR JVC protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR Sony protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR SANYO protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR Sharp protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR MCE Keyboard/mouse protocol handler initialized
+Jul  5 10:16:05 7060 kernel: IR XMP protocol handler initialized
+Jul  5 10:16:05 7060 kernel: pxp-v4l2 pxp_v4l2: initialized
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver uvcvideo
+Jul  5 10:16:05 7060 kernel: USB Video Class driver (1.1.1)
+Jul  5 10:16:05 7060 kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Jul  5 10:16:05 7060 kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI UART driver ver 2.3
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI UART protocol H4 registered
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI UART protocol BCSP registered
+Jul  5 10:16:05 7060 kernel: Bluetooth: HCI UART protocol ATH3K registered
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver btusb
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver ath3k
+Jul  5 10:16:05 7060 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jul  5 10:16:05 7060 kernel: sdhci: Copyright(c) Pierre Ossman
+Jul  5 10:16:05 7060 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jul  5 10:16:05 7060 kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: could not get ultra high speed state, work on normal mode
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vmmc regulator found
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Jul  5 10:16:05 7060 kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Jul  5 10:16:05 7060 kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Jul  5 10:16:05 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Jul  5 10:16:05 7060 kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Jul  5 10:16:05 7060 kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Jul  5 10:16:05 7060 kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Jul  5 10:16:05 7060 kernel: mmc0: new high speed SDHC card at address aaaa
+Jul  5 10:16:05 7060 kernel: mmcblk0: mmc0:aaaa SS16G 14.8 GiB 
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver usbhid
+Jul  5 10:16:05 7060 kernel: mmcblk0: p1 p2
+Jul  5 10:16:05 7060 kernel: usbhid: USB HID core driver
+Jul  5 10:16:05 7060 kernel: usbcore: registered new interface driver snd-usb-audio
+Jul  5 10:16:05 7060 kernel: fsl-asrc 2034000.asrc: driver registered
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 26
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 10
+Jul  5 10:16:05 7060 kernel: sit: IPv6 over IPv4 tunneling driver
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 17
+Jul  5 10:16:05 7060 kernel: can: controller area network core (rev 20120528 abi 9)
+Jul  5 10:16:05 7060 kernel: NET: Registered protocol family 29
+Jul  5 10:16:05 7060 kernel: can: raw protocol (rev 20120528)
+Jul  5 10:16:05 7060 kernel: can: broadcast manager protocol (rev 20120528 t)
+Jul  5 10:16:05 7060 kernel: can: netlink gateway (rev 20130117) max_hops=1
+Jul  5 10:16:05 7060 kernel: hub 1-1:1.0: USB hub found
+Jul  5 10:16:05 7060 kernel: hub 1-1:1.0: 2 ports detected
+Jul  5 10:16:05 7060 kernel: Bluetooth: RFCOMM TTY layer initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: RFCOMM socket layer initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: RFCOMM ver 1.11
+Jul  5 10:16:05 7060 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jul  5 10:16:05 7060 kernel: Bluetooth: BNEP filters: protocol multicast
+Jul  5 10:16:05 7060 kernel: Bluetooth: BNEP socket layer initialized
+Jul  5 10:16:05 7060 kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Jul  5 10:16:05 7060 kernel: Bluetooth: HIDP socket layer initialized
+Jul  5 10:16:05 7060 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jul  5 10:16:05 7060 kernel: Key type dns_resolver registered
+Jul  5 10:16:05 7060 kernel: dhd_module_init in
+Jul  5 10:16:05 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 2019-07-05 10:15:50 UTC (1562321750)
+Jul  5 10:16:05 7060 kernel: fec 2188000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=2188000.ethernet:00, irq=-1)
+Jul  5 10:16:05 7060 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  5 10:16:05 7060 kernel: usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+Jul  5 10:16:05 7060 kernel: fec 2188000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jul  5 10:16:05 7060 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  5 10:16:05 7060 kernel: IP-Config: Complete:
+Jul  5 10:16:05 7060 kernel:     device=eth0, hwaddr=22:17:b3:6b:e7:3c, ipaddr=192.168.50.100, mask=255.255.255.0, gw=192.168.50.1
+Jul  5 10:16:05 7060 kernel:     host=192.168.50.100, domain=, nis-domain=(none)
+Jul  5 10:16:05 7060 kernel:     bootserver=192.168.50.21, rootserver=192.168.50.21, rootpath=
+Jul  5 10:16:05 7060 kernel: gpio_dvfs: disabling
+Jul  5 10:16:05 7060 kernel: VSD_3V3: disabling
+Jul  5 10:16:05 7060 kernel: can-3v3: disabling
+Jul  5 10:16:05 7060 kernel: ALSA device list:
+Jul  5 10:16:05 7060 kernel:  No soundcards found.
+Jul  5 10:16:05 7060 kernel: VFS: Mounted root (nfs filesystem) on device 0:14.
+Jul  5 10:16:05 7060 kernel: devtmpfs: mounted
+Jul  5 10:16:05 7060 kernel: Freeing unused kernel memory: 432K (80b3a000 - 80ba6000)
+Jul  5 10:16:05 7060 kernel: random: systemd urandom read with 81 bits of entropy available
+Jul  5 10:16:05 7060 kernel: random: nonblocking pool is initialized
+Jul  5 10:16:05 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="182" x-info="http://www.rsyslog.com"] start
+Jul  5 13:05:28 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="202" x-info="http://www.rsyslog.com"] start
+Jul  5 13:05:28 7060 kernel: Booting Linux on physical CPU 0x0
+Jul  5 13:05:28 7060 kernel: Linux version 4.1.15 (root@dell) (gcc version 6.3.1 20170109 (Linaro GCC 6.3-2017.02) ) #1 SMP PREEMPT Sun Jun 30 03:59:10 CST 2019
+Jul  5 13:05:28 7060 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+Jul  5 13:05:28 7060 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jul  5 13:05:28 7060 kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Jul  5 13:05:28 7060 kernel: Reserved memory: failed to allocate memory for node 'linux,cma'
+Jul  5 13:05:28 7060 kernel: Memory policy: Data cache writealloc
+Jul  5 13:05:28 7060 kernel: PERCPU: Embedded 12 pages/cpu @8fdd4000 s16908 r8192 d24052 u49152
+Jul  5 13:05:28 7060 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jul  5 13:05:28 7060 kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+Jul  5 13:05:28 7060 kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:05:28 7060 kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jul  5 13:05:28 7060 kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  5 13:05:28 7060 kernel: Memory: 246880K/262144K available (8516K kernel code, 439K rwdata, 2944K rodata, 432K init, 450K bss, 15264K reserved, 0K cma-reserved, 0K highmem)
+Jul  5 13:05:28 7060 kernel: Virtual kernel memory layout:
+Jul  5 13:05:28 7060 kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jul  5 13:05:28 7060 kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jul  5 13:05:28 7060 kernel:    vmalloc : 0x90800000 - 0xff000000   (1768 MB)
+Jul  5 13:05:28 7060 kernel:    lowmem  : 0x80000000 - 0x90000000   ( 256 MB)
+Jul  5 13:05:28 7060 kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jul  5 13:05:28 7060 kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Jul  5 13:05:28 7060 kernel:      .text : 0x80008000 - 0x80b393d4   (11461 kB)
+Jul  5 13:05:28 7060 kernel:      .init : 0x80b3a000 - 0x80ba6000   ( 432 kB)
+Jul  5 13:05:28 7060 kernel:      .data : 0x80ba6000 - 0x80c13de0   ( 440 kB)
+Jul  5 13:05:28 7060 kernel:       .bss : 0x80c16000 - 0x80c86a40   ( 451 kB)
+Jul  5 13:05:28 7060 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  5 13:05:28 7060 kernel: Preemptible hierarchical RCU implementation.
+Jul  5 13:05:28 7060 kernel: 	Additional per-CPU info printed with stalls.
+Jul  5 13:05:28 7060 kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jul  5 13:05:28 7060 kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jul  5 13:05:28 7060 kernel: NR_IRQS:16 nr_irqs:16 16
+Jul  5 13:05:28 7060 kernel: mxc_clocksource_init 24000000
+Jul  5 13:05:28 7060 kernel: Switching to timer-based delay loop, resolution 41ns
+Jul  5 13:05:28 7060 kernel: sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jul  5 13:05:28 7060 kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jul  5 13:05:28 7060 kernel: Console: colour dummy device 80x30
+Jul  5 13:05:28 7060 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jul  5 13:05:28 7060 kernel: pid_max: default: 32768 minimum: 301
+Jul  5 13:05:28 7060 kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:05:28 7060 kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:05:28 7060 kernel: CPU: Testing write buffer coherency: ok
+Jul  5 13:05:28 7060 kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jul  5 13:05:28 7060 kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Jul  5 13:05:28 7060 kernel: Brought up 1 CPUs
+Jul  5 13:05:28 7060 kernel: SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jul  5 13:05:28 7060 kernel: CPU: All CPU(s) started in SVC mode.
+Jul  5 13:05:28 7060 kernel: devtmpfs: initialized
+Jul  5 13:05:28 7060 kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Jul  5 13:05:28 7060 kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jul  5 13:05:28 7060 kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jul  5 13:05:28 7060 kernel: pinctrl core: initialized pinctrl subsystem
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 16
+Jul  5 13:05:28 7060 kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jul  5 13:05:28 7060 kernel: cpuidle: using governor ladder
+Jul  5 13:05:28 7060 kernel: cpuidle: using governor menu
+Jul  5 13:05:28 7060 kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jul  5 13:05:28 7060 kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jul  5 13:05:28 7060 kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Jul  5 13:05:28 7060 kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Jul  5 13:05:28 7060 kernel: mxs-dma 1804000.dma-apbh: initialized
+Jul  5 13:05:28 7060 kernel: SCSI subsystem initialized
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver usbfs
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver hub
+Jul  5 13:05:28 7060 kernel: usbcore: registered new device driver usb
+Jul  5 13:05:28 7060 kernel: i2c i2c-1: IMX I2C adapter registered
+Jul  5 13:05:28 7060 kernel: i2c i2c-1: can't use DMA
+Jul  5 13:05:28 7060 kernel: media: Linux media interface: v0.10
+Jul  5 13:05:28 7060 kernel: Linux video capture interface: v2.00
+Jul  5 13:05:28 7060 kernel: pps_core: LinuxPPS API ver. 1 registered
+Jul  5 13:05:28 7060 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul  5 13:05:28 7060 kernel: PTP clock support registered
+Jul  5 13:05:28 7060 kernel: MIPI CSI2 driver module loaded
+Jul  5 13:05:28 7060 kernel: Advanced Linux Sound Architecture Driver Initialized.
+Jul  5 13:05:28 7060 kernel: Bluetooth: Core ver 2.20
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 31
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI device and connection manager initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI socket layer initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: L2CAP socket layer initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: SCO socket layer initialized
+Jul  5 13:05:28 7060 kernel: Switched to clocksource mxc_timer1
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 2
+Jul  5 13:05:28 7060 kernel: TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Jul  5 13:05:28 7060 kernel: TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Jul  5 13:05:28 7060 kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jul  5 13:05:28 7060 kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 13:05:28 7060 kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 1
+Jul  5 13:05:28 7060 kernel: RPC: Registered named UNIX socket transport module.
+Jul  5 13:05:28 7060 kernel: RPC: Registered udp transport module.
+Jul  5 13:05:28 7060 kernel: RPC: Registered tcp transport module.
+Jul  5 13:05:28 7060 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  5 13:05:28 7060 kernel: imx rpmsg driver is registered.
+Jul  5 13:05:28 7060 kernel: Bus freq driver module loaded
+Jul  5 13:05:28 7060 kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Jul  5 13:05:28 7060 kernel: VFS: Disk quotas dquot_6.6.0
+Jul  5 13:05:28 7060 kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jul  5 13:05:28 7060 kernel: NFS: Registering the id_resolver key type
+Jul  5 13:05:28 7060 kernel: Key type id_resolver registered
+Jul  5 13:05:28 7060 kernel: Key type id_legacy registered
+Jul  5 13:05:28 7060 kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jul  5 13:05:28 7060 kernel: fuse init (API version 7.23)
+Jul  5 13:05:28 7060 kernel: io scheduler noop registered
+Jul  5 13:05:28 7060 kernel: io scheduler deadline registered
+Jul  5 13:05:28 7060 kernel: io scheduler cfq registered (default)
+Jul  5 13:05:28 7060 kernel: imx-weim 21b8000.weim: Driver registered.
+Jul  5 13:05:28 7060 kernel: backlight supply power not found, using dummy regulator
+Jul  5 13:05:28 7060 kernel: MIPI DSI driver module loaded
+Jul  5 13:05:28 7060 kernel: MIPI DSI driver module loaded
+Jul  5 13:05:28 7060 kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Jul  5 13:05:28 7060 kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Jul  5 13:05:28 7060 kernel: Console: switching to colour frame buffer device 60x34
+Jul  5 13:05:28 7060 kernel: mxsfb 21c8000.lcdif: initialized
+Jul  5 13:05:28 7060 kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Jul  5 13:05:28 7060 kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Jul  5 13:05:28 7060 kernel: imx-sdma 20ec000.sdma: initialized
+Jul  5 13:05:28 7060 kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Jul  5 13:05:28 7060 kernel: console [ttymxc0] enabled
+Jul  5 13:05:28 7060 kernel: imx-rng 2284000.rngb: iMX RNG Registered.
+Jul  5 13:05:28 7060 kernel: imx sema4 driver is registered.
+Jul  5 13:05:28 7060 kernel: [drm] Initialized drm 1.1.0 20060810
+Jul  5 13:05:28 7060 kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Jul  5 13:05:28 7060 kernel: brd: module loaded
+Jul  5 13:05:28 7060 kernel: loop: module loaded
+Jul  5 13:05:28 7060 kernel: CAN device driver interface
+Jul  5 13:05:28 7060 kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Jul  5 13:05:28 7060 kernel: pps pps0: new PPS source ptp0
+Jul  5 13:05:28 7060 kernel: libphy: fec_enet_mii_bus: probed
+Jul  5 13:05:28 7060 kernel: fec 2188000.ethernet eth0: registered PHC device 0
+Jul  5 13:05:28 7060 kernel: PPP generic driver version 2.4.2
+Jul  5 13:05:28 7060 kernel: PPP BSD Compression module registered
+Jul  5 13:05:28 7060 kernel: PPP Deflate Compression module registered
+Jul  5 13:05:28 7060 kernel: PPP MPPE Compression module registered
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 24
+Jul  5 13:05:28 7060 kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+Jul  5 13:05:28 7060 kernel: CSLIP: code copyright 1989 Regents of the University of California.
+Jul  5 13:05:28 7060 kernel: SLIP linefill/keepalive option.
+Jul  5 13:05:28 7060 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  5 13:05:28 7060 kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver usb-storage
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver usb_ehset_test
+Jul  5 13:05:28 7060 kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Jul  5 13:05:28 7060 kernel: 2184200.usb supply vbus not found, using dummy regulator
+Jul  5 13:05:28 7060 kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Jul  5 13:05:28 7060 kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Jul  5 13:05:28 7060 kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Jul  5 13:05:28 7060 kernel: hub 1-0:1.0: USB hub found
+Jul  5 13:05:28 7060 kernel: hub 1-0:1.0: 1 port detected
+Jul  5 13:05:28 7060 kernel: mousedev: PS/2 mouse device common for all mice
+Jul  5 13:05:28 7060 kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Jul  5 13:05:28 7060 kernel: tp reset gpio=131
+Jul  5 13:05:28 7060 kernel: ft5x06_ts: probe of 1-0038 failed with error 161
+Jul  5 13:05:28 7060 kernel: ft5x0x_ts_init successful
+Jul  5 13:05:28 7060 kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Jul  5 13:05:28 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Jul  5 13:05:28 7060 kernel: i2c /dev entries driver
+Jul  5 13:05:28 7060 kernel: IR NEC protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR RC5(x/sz) protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR RC6 protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR JVC protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR Sony protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR SANYO protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR Sharp protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR MCE Keyboard/mouse protocol handler initialized
+Jul  5 13:05:28 7060 kernel: IR XMP protocol handler initialized
+Jul  5 13:05:28 7060 kernel: pxp-v4l2 pxp_v4l2: initialized
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver uvcvideo
+Jul  5 13:05:28 7060 kernel: USB Video Class driver (1.1.1)
+Jul  5 13:05:28 7060 kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Jul  5 13:05:28 7060 kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI UART driver ver 2.3
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI UART protocol H4 registered
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI UART protocol BCSP registered
+Jul  5 13:05:28 7060 kernel: Bluetooth: HCI UART protocol ATH3K registered
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver btusb
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver ath3k
+Jul  5 13:05:28 7060 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jul  5 13:05:28 7060 kernel: sdhci: Copyright(c) Pierre Ossman
+Jul  5 13:05:28 7060 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jul  5 13:05:28 7060 kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: could not get ultra high speed state, work on normal mode
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vmmc regulator found
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Jul  5 13:05:28 7060 kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Jul  5 13:05:28 7060 kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Jul  5 13:05:28 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Jul  5 13:05:28 7060 kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Jul  5 13:05:28 7060 kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Jul  5 13:05:28 7060 kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Jul  5 13:05:28 7060 kernel: mmc0: new high speed SDHC card at address aaaa
+Jul  5 13:05:28 7060 kernel: mmcblk0: mmc0:aaaa SS16G 14.8 GiB 
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver usbhid
+Jul  5 13:05:28 7060 kernel: mmcblk0: p1 p2
+Jul  5 13:05:28 7060 kernel: usbhid: USB HID core driver
+Jul  5 13:05:28 7060 kernel: usbcore: registered new interface driver snd-usb-audio
+Jul  5 13:05:28 7060 kernel: fsl-asrc 2034000.asrc: driver registered
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 26
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 10
+Jul  5 13:05:28 7060 kernel: sit: IPv6 over IPv4 tunneling driver
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 17
+Jul  5 13:05:28 7060 kernel: can: controller area network core (rev 20120528 abi 9)
+Jul  5 13:05:28 7060 kernel: NET: Registered protocol family 29
+Jul  5 13:05:28 7060 kernel: can: raw protocol (rev 20120528)
+Jul  5 13:05:28 7060 kernel: can: broadcast manager protocol (rev 20120528 t)
+Jul  5 13:05:28 7060 kernel: can: netlink gateway (rev 20130117) max_hops=1
+Jul  5 13:05:28 7060 kernel: hub 1-1:1.0: USB hub found
+Jul  5 13:05:28 7060 kernel: hub 1-1:1.0: 2 ports detected
+Jul  5 13:05:28 7060 kernel: Bluetooth: RFCOMM TTY layer initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: RFCOMM socket layer initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: RFCOMM ver 1.11
+Jul  5 13:05:28 7060 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jul  5 13:05:28 7060 kernel: Bluetooth: BNEP filters: protocol multicast
+Jul  5 13:05:28 7060 kernel: Bluetooth: BNEP socket layer initialized
+Jul  5 13:05:28 7060 kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Jul  5 13:05:28 7060 kernel: Bluetooth: HIDP socket layer initialized
+Jul  5 13:05:28 7060 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jul  5 13:05:28 7060 kernel: Key type dns_resolver registered
+Jul  5 13:05:28 7060 kernel: dhd_module_init in
+Jul  5 13:05:28 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 2019-07-05 13:04:48 UTC (1562331888)
+Jul  5 13:05:28 7060 kernel: fec 2188000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=2188000.ethernet:00, irq=-1)
+Jul  5 13:05:28 7060 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  5 13:05:28 7060 kernel: usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+Jul  5 13:05:28 7060 kernel: fec 2188000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jul  5 13:05:28 7060 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  5 13:05:28 7060 kernel: IP-Config: Complete:
+Jul  5 13:05:28 7060 kernel:     device=eth0, hwaddr=22:17:b3:6b:e7:3c, ipaddr=192.168.50.100, mask=255.255.255.0, gw=192.168.50.1
+Jul  5 13:05:28 7060 kernel:     host=192.168.50.100, domain=, nis-domain=(none)
+Jul  5 13:05:28 7060 kernel:     bootserver=192.168.50.21, rootserver=192.168.50.21, rootpath=
+Jul  5 13:05:28 7060 kernel: gpio_dvfs: disabling
+Jul  5 13:05:28 7060 kernel: VSD_3V3: disabling
+Jul  5 13:05:28 7060 kernel: can-3v3: disabling
+Jul  5 13:05:28 7060 kernel: ALSA device list:
+Jul  5 13:05:28 7060 kernel:  No soundcards found.
+Jul  5 13:05:28 7060 kernel: VFS: Mounted root (nfs filesystem) on device 0:14.
+Jul  5 13:05:28 7060 kernel: devtmpfs: mounted
+Jul  5 13:05:28 7060 kernel: Freeing unused kernel memory: 432K (80b3a000 - 80ba6000)
+Jul  5 13:05:28 7060 kernel: random: systemd urandom read with 81 bits of entropy available
+Jul  5 13:05:28 7060 kernel: random: nonblocking pool is initialized
+Jul  5 13:59:06 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="181" x-info="http://www.rsyslog.com"] start
+Jul  5 13:59:06 7060 kernel: Booting Linux on physical CPU 0x0
+Jul  5 13:59:06 7060 kernel: Linux version 4.1.15 (root@dell) (gcc version 6.3.1 20170109 (Linaro GCC 6.3-2017.02) ) #1 SMP PREEMPT Sun Jun 30 03:59:10 CST 2019
+Jul  5 13:59:06 7060 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+Jul  5 13:59:06 7060 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jul  5 13:59:06 7060 kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Jul  5 13:59:06 7060 kernel: Reserved memory: failed to allocate memory for node 'linux,cma'
+Jul  5 13:59:06 7060 kernel: Memory policy: Data cache writealloc
+Jul  5 13:59:06 7060 kernel: PERCPU: Embedded 12 pages/cpu @8fdd4000 s16908 r8192 d24052 u49152
+Jul  5 13:59:06 7060 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jul  5 13:59:06 7060 kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+Jul  5 13:59:06 7060 kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:59:06 7060 kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jul  5 13:59:06 7060 kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jul  5 13:59:06 7060 kernel: Memory: 246880K/262144K available (8516K kernel code, 439K rwdata, 2944K rodata, 432K init, 450K bss, 15264K reserved, 0K cma-reserved, 0K highmem)
+Jul  5 13:59:06 7060 kernel: Virtual kernel memory layout:
+Jul  5 13:59:06 7060 kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jul  5 13:59:06 7060 kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jul  5 13:59:06 7060 kernel:    vmalloc : 0x90800000 - 0xff000000   (1768 MB)
+Jul  5 13:59:06 7060 kernel:    lowmem  : 0x80000000 - 0x90000000   ( 256 MB)
+Jul  5 13:59:06 7060 kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jul  5 13:59:06 7060 kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Jul  5 13:59:06 7060 kernel:      .text : 0x80008000 - 0x80b393d4   (11461 kB)
+Jul  5 13:59:06 7060 kernel:      .init : 0x80b3a000 - 0x80ba6000   ( 432 kB)
+Jul  5 13:59:06 7060 kernel:      .data : 0x80ba6000 - 0x80c13de0   ( 440 kB)
+Jul  5 13:59:06 7060 kernel:       .bss : 0x80c16000 - 0x80c86a40   ( 451 kB)
+Jul  5 13:59:06 7060 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jul  5 13:59:06 7060 kernel: Preemptible hierarchical RCU implementation.
+Jul  5 13:59:06 7060 kernel: 	Additional per-CPU info printed with stalls.
+Jul  5 13:59:06 7060 kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jul  5 13:59:06 7060 kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jul  5 13:59:06 7060 kernel: NR_IRQS:16 nr_irqs:16 16
+Jul  5 13:59:06 7060 kernel: mxc_clocksource_init 24000000
+Jul  5 13:59:06 7060 kernel: Switching to timer-based delay loop, resolution 41ns
+Jul  5 13:59:06 7060 kernel: sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jul  5 13:59:06 7060 kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jul  5 13:59:06 7060 kernel: Console: colour dummy device 80x30
+Jul  5 13:59:06 7060 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jul  5 13:59:06 7060 kernel: pid_max: default: 32768 minimum: 301
+Jul  5 13:59:06 7060 kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:59:06 7060 kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jul  5 13:59:06 7060 kernel: CPU: Testing write buffer coherency: ok
+Jul  5 13:59:06 7060 kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jul  5 13:59:06 7060 kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Jul  5 13:59:06 7060 kernel: Brought up 1 CPUs
+Jul  5 13:59:06 7060 kernel: SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jul  5 13:59:06 7060 kernel: CPU: All CPU(s) started in SVC mode.
+Jul  5 13:59:06 7060 kernel: devtmpfs: initialized
+Jul  5 13:59:06 7060 kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Jul  5 13:59:06 7060 kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jul  5 13:59:06 7060 kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jul  5 13:59:06 7060 kernel: pinctrl core: initialized pinctrl subsystem
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 16
+Jul  5 13:59:06 7060 kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jul  5 13:59:06 7060 kernel: cpuidle: using governor ladder
+Jul  5 13:59:06 7060 kernel: cpuidle: using governor menu
+Jul  5 13:59:06 7060 kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jul  5 13:59:06 7060 kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jul  5 13:59:06 7060 kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Jul  5 13:59:06 7060 kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Jul  5 13:59:06 7060 kernel: mxs-dma 1804000.dma-apbh: initialized
+Jul  5 13:59:06 7060 kernel: SCSI subsystem initialized
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver usbfs
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver hub
+Jul  5 13:59:06 7060 kernel: usbcore: registered new device driver usb
+Jul  5 13:59:06 7060 kernel: i2c i2c-1: IMX I2C adapter registered
+Jul  5 13:59:06 7060 kernel: i2c i2c-1: can't use DMA
+Jul  5 13:59:06 7060 kernel: media: Linux media interface: v0.10
+Jul  5 13:59:06 7060 kernel: Linux video capture interface: v2.00
+Jul  5 13:59:06 7060 kernel: pps_core: LinuxPPS API ver. 1 registered
+Jul  5 13:59:06 7060 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jul  5 13:59:06 7060 kernel: PTP clock support registered
+Jul  5 13:59:06 7060 kernel: MIPI CSI2 driver module loaded
+Jul  5 13:59:06 7060 kernel: Advanced Linux Sound Architecture Driver Initialized.
+Jul  5 13:59:06 7060 kernel: Bluetooth: Core ver 2.20
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 31
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI device and connection manager initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI socket layer initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: L2CAP socket layer initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: SCO socket layer initialized
+Jul  5 13:59:06 7060 kernel: Switched to clocksource mxc_timer1
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 2
+Jul  5 13:59:06 7060 kernel: TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Jul  5 13:59:06 7060 kernel: TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Jul  5 13:59:06 7060 kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jul  5 13:59:06 7060 kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 13:59:06 7060 kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 1
+Jul  5 13:59:06 7060 kernel: RPC: Registered named UNIX socket transport module.
+Jul  5 13:59:06 7060 kernel: RPC: Registered udp transport module.
+Jul  5 13:59:06 7060 kernel: RPC: Registered tcp transport module.
+Jul  5 13:59:06 7060 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jul  5 13:59:06 7060 kernel: imx rpmsg driver is registered.
+Jul  5 13:59:06 7060 kernel: Bus freq driver module loaded
+Jul  5 13:59:06 7060 kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Jul  5 13:59:06 7060 kernel: VFS: Disk quotas dquot_6.6.0
+Jul  5 13:59:06 7060 kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jul  5 13:59:06 7060 kernel: NFS: Registering the id_resolver key type
+Jul  5 13:59:06 7060 kernel: Key type id_resolver registered
+Jul  5 13:59:06 7060 kernel: Key type id_legacy registered
+Jul  5 13:59:06 7060 kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jul  5 13:59:06 7060 kernel: fuse init (API version 7.23)
+Jul  5 13:59:06 7060 kernel: io scheduler noop registered
+Jul  5 13:59:06 7060 kernel: io scheduler deadline registered
+Jul  5 13:59:06 7060 kernel: io scheduler cfq registered (default)
+Jul  5 13:59:06 7060 kernel: imx-weim 21b8000.weim: Driver registered.
+Jul  5 13:59:06 7060 kernel: backlight supply power not found, using dummy regulator
+Jul  5 13:59:06 7060 kernel: MIPI DSI driver module loaded
+Jul  5 13:59:06 7060 kernel: MIPI DSI driver module loaded
+Jul  5 13:59:06 7060 kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Jul  5 13:59:06 7060 kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Jul  5 13:59:06 7060 kernel: Console: switching to colour frame buffer device 60x34
+Jul  5 13:59:06 7060 kernel: mxsfb 21c8000.lcdif: initialized
+Jul  5 13:59:06 7060 kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Jul  5 13:59:06 7060 kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Jul  5 13:59:06 7060 kernel: imx-sdma 20ec000.sdma: initialized
+Jul  5 13:59:06 7060 kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Jul  5 13:59:06 7060 kernel: console [ttymxc0] enabled
+Jul  5 13:59:06 7060 kernel: imx-rng 2284000.rngb: iMX RNG Registered.
+Jul  5 13:59:06 7060 kernel: imx sema4 driver is registered.
+Jul  5 13:59:06 7060 kernel: [drm] Initialized drm 1.1.0 20060810
+Jul  5 13:59:06 7060 kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Jul  5 13:59:06 7060 kernel: brd: module loaded
+Jul  5 13:59:06 7060 kernel: loop: module loaded
+Jul  5 13:59:06 7060 kernel: CAN device driver interface
+Jul  5 13:59:06 7060 kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Jul  5 13:59:06 7060 kernel: pps pps0: new PPS source ptp0
+Jul  5 13:59:06 7060 kernel: libphy: fec_enet_mii_bus: probed
+Jul  5 13:59:06 7060 kernel: fec 2188000.ethernet eth0: registered PHC device 0
+Jul  5 13:59:06 7060 kernel: PPP generic driver version 2.4.2
+Jul  5 13:59:06 7060 kernel: PPP BSD Compression module registered
+Jul  5 13:59:06 7060 kernel: PPP Deflate Compression module registered
+Jul  5 13:59:06 7060 kernel: PPP MPPE Compression module registered
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 24
+Jul  5 13:59:06 7060 kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+Jul  5 13:59:06 7060 kernel: CSLIP: code copyright 1989 Regents of the University of California.
+Jul  5 13:59:06 7060 kernel: SLIP linefill/keepalive option.
+Jul  5 13:59:06 7060 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jul  5 13:59:06 7060 kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver usb-storage
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver usb_ehset_test
+Jul  5 13:59:06 7060 kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Jul  5 13:59:06 7060 kernel: 2184200.usb supply vbus not found, using dummy regulator
+Jul  5 13:59:06 7060 kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Jul  5 13:59:06 7060 kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Jul  5 13:59:06 7060 kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Jul  5 13:59:06 7060 kernel: hub 1-0:1.0: USB hub found
+Jul  5 13:59:06 7060 kernel: hub 1-0:1.0: 1 port detected
+Jul  5 13:59:06 7060 kernel: mousedev: PS/2 mouse device common for all mice
+Jul  5 13:59:06 7060 kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Jul  5 13:59:06 7060 kernel: tp reset gpio=131
+Jul  5 13:59:06 7060 kernel: ft5x06_ts: probe of 1-0038 failed with error 161
+Jul  5 13:59:06 7060 kernel: ft5x0x_ts_init successful
+Jul  5 13:59:06 7060 kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Jul  5 13:59:06 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Jul  5 13:59:06 7060 kernel: i2c /dev entries driver
+Jul  5 13:59:06 7060 kernel: IR NEC protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR RC5(x/sz) protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR RC6 protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR JVC protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR Sony protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR SANYO protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR Sharp protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR MCE Keyboard/mouse protocol handler initialized
+Jul  5 13:59:06 7060 kernel: IR XMP protocol handler initialized
+Jul  5 13:59:06 7060 kernel: pxp-v4l2 pxp_v4l2: initialized
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver uvcvideo
+Jul  5 13:59:06 7060 kernel: USB Video Class driver (1.1.1)
+Jul  5 13:59:06 7060 kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Jul  5 13:59:06 7060 kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI UART driver ver 2.3
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI UART protocol H4 registered
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI UART protocol BCSP registered
+Jul  5 13:59:06 7060 kernel: Bluetooth: HCI UART protocol ATH3K registered
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver btusb
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver ath3k
+Jul  5 13:59:06 7060 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jul  5 13:59:06 7060 kernel: sdhci: Copyright(c) Pierre Ossman
+Jul  5 13:59:06 7060 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jul  5 13:59:06 7060 kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: could not get ultra high speed state, work on normal mode
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vmmc regulator found
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Jul  5 13:59:06 7060 kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Jul  5 13:59:06 7060 kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Jul  5 13:59:06 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Jul  5 13:59:06 7060 kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Jul  5 13:59:06 7060 kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Jul  5 13:59:06 7060 kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Jul  5 13:59:06 7060 kernel: mmc0: new high speed SDHC card at address aaaa
+Jul  5 13:59:06 7060 kernel: mmcblk0: mmc0:aaaa SS16G 14.8 GiB 
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver usbhid
+Jul  5 13:59:06 7060 kernel: mmcblk0: p1 p2
+Jul  5 13:59:06 7060 kernel: usbhid: USB HID core driver
+Jul  5 13:59:06 7060 kernel: usbcore: registered new interface driver snd-usb-audio
+Jul  5 13:59:06 7060 kernel: fsl-asrc 2034000.asrc: driver registered
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 26
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 10
+Jul  5 13:59:06 7060 kernel: sit: IPv6 over IPv4 tunneling driver
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 17
+Jul  5 13:59:06 7060 kernel: can: controller area network core (rev 20120528 abi 9)
+Jul  5 13:59:06 7060 kernel: NET: Registered protocol family 29
+Jul  5 13:59:06 7060 kernel: can: raw protocol (rev 20120528)
+Jul  5 13:59:06 7060 kernel: can: broadcast manager protocol (rev 20120528 t)
+Jul  5 13:59:06 7060 kernel: can: netlink gateway (rev 20130117) max_hops=1
+Jul  5 13:59:06 7060 kernel: hub 1-1:1.0: USB hub found
+Jul  5 13:59:06 7060 kernel: hub 1-1:1.0: 2 ports detected
+Jul  5 13:59:06 7060 kernel: Bluetooth: RFCOMM TTY layer initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: RFCOMM socket layer initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: RFCOMM ver 1.11
+Jul  5 13:59:06 7060 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jul  5 13:59:06 7060 kernel: Bluetooth: BNEP filters: protocol multicast
+Jul  5 13:59:06 7060 kernel: Bluetooth: BNEP socket layer initialized
+Jul  5 13:59:06 7060 kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Jul  5 13:59:06 7060 kernel: Bluetooth: HIDP socket layer initialized
+Jul  5 13:59:06 7060 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jul  5 13:59:06 7060 kernel: Key type dns_resolver registered
+Jul  5 13:59:06 7060 kernel: dhd_module_init in
+Jul  5 13:59:06 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 2019-07-05 13:58:51 UTC (1562335131)
+Jul  5 13:59:06 7060 kernel: fec 2188000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=2188000.ethernet:00, irq=-1)
+Jul  5 13:59:06 7060 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jul  5 13:59:06 7060 kernel: usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+Jul  5 13:59:06 7060 kernel: fec 2188000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jul  5 13:59:06 7060 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jul  5 13:59:06 7060 kernel: IP-Config: Complete:
+Jul  5 13:59:06 7060 kernel:     device=eth0, hwaddr=22:17:b3:6b:e7:3c, ipaddr=192.168.50.100, mask=255.255.255.0, gw=192.168.50.1
+Jul  5 13:59:06 7060 kernel:     host=192.168.50.100, domain=, nis-domain=(none)
+Jul  5 13:59:06 7060 kernel:     bootserver=192.168.50.21, rootserver=192.168.50.21, rootpath=
+Jul  5 13:59:06 7060 kernel: gpio_dvfs: disabling
+Jul  5 13:59:06 7060 kernel: VSD_3V3: disabling
+Jul  5 13:59:06 7060 kernel: can-3v3: disabling
+Jul  5 13:59:06 7060 kernel: ALSA device list:
+Jul  5 13:59:06 7060 kernel:  No soundcards found.
+Jul  5 13:59:06 7060 kernel: VFS: Mounted root (nfs filesystem) on device 0:14.
+Jul  5 13:59:06 7060 kernel: devtmpfs: mounted
+Jul  5 13:59:06 7060 kernel: Freeing unused kernel memory: 432K (80b3a000 - 80ba6000)
+Jul  5 13:59:06 7060 kernel: random: systemd urandom read with 80 bits of entropy available
+Jul  5 13:59:06 7060 kernel: random: nonblocking pool is initialized
+Jun 29 19:24:25 7060 kernel: Booting Linux on physical CPU 0x0
+Jun 29 19:24:25 7060 kernel: Linux version 4.1.15 (root@dell) (gcc version 6.3.1 20170109 (Linaro GCC 6.3-2017.02) ) #1 SMP PREEMPT Sun Jun 30 03:59:10 CST 2019
+Jun 29 19:24:25 7060 kernel: CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+Jun 29 19:24:25 7060 kernel: CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Jun 29 19:24:25 7060 kernel: Machine model: Freescale i.MX6 ULL 14x14 EVK Board
+Jun 29 19:24:25 7060 kernel: Reserved memory: failed to allocate memory for node 'linux,cma'
+Jun 29 19:24:25 7060 kernel: Memory policy: Data cache writealloc
+Jun 29 19:24:25 7060 kernel: PERCPU: Embedded 12 pages/cpu @8fdd4000 s16908 r8192 d24052 u49152
+Jun 29 19:24:25 7060 kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65024
+Jun 29 19:24:25 7060 kernel: Kernel command line: console=ttymxc0,115200 root=/dev/nfs rw nfsroot=192.168.50.21:/datadisk/dev_mys_y6ulx/nfs_rootfs ip=192.168.50.100:192.168.50.21:192.168.50.1:255.255.255.0::eth0:off
+Jun 29 19:24:25 7060 kernel: PID hash table entries: 1024 (order: 0, 4096 bytes)
+Jun 29 19:24:25 7060 kernel: Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Jun 29 19:24:25 7060 kernel: Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Jun 29 19:24:25 7060 kernel: Memory: 246880K/262144K available (8516K kernel code, 439K rwdata, 2944K rodata, 432K init, 450K bss, 15264K reserved, 0K cma-reserved, 0K highmem)
+Jun 29 19:24:25 7060 kernel: Virtual kernel memory layout:
+Jun 29 19:24:25 7060 kernel:    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Jun 29 19:24:25 7060 kernel:    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Jun 29 19:24:25 7060 kernel:    vmalloc : 0x90800000 - 0xff000000   (1768 MB)
+Jun 29 19:24:25 7060 kernel:    lowmem  : 0x80000000 - 0x90000000   ( 256 MB)
+Jun 29 19:24:25 7060 kernel:    pkmap   : 0x7fe00000 - 0x80000000   (   2 MB)
+Jun 29 19:24:25 7060 kernel:    modules : 0x7f000000 - 0x7fe00000   (  14 MB)
+Jun 29 19:24:25 7060 kernel:      .text : 0x80008000 - 0x80b393d4   (11461 kB)
+Jun 29 19:24:25 7060 kernel:      .init : 0x80b3a000 - 0x80ba6000   ( 432 kB)
+Jun 29 19:24:25 7060 kernel:      .data : 0x80ba6000 - 0x80c13de0   ( 440 kB)
+Jun 29 19:24:25 7060 kernel:       .bss : 0x80c16000 - 0x80c86a40   ( 451 kB)
+Jun 29 19:24:25 7060 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jun 29 19:24:25 7060 kernel: Preemptible hierarchical RCU implementation.
+Jun 29 19:24:25 7060 kernel: 	Additional per-CPU info printed with stalls.
+Jun 29 19:24:25 7060 kernel: 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=1.
+Jun 29 19:24:25 7060 kernel: RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jun 29 19:24:25 7060 kernel: NR_IRQS:16 nr_irqs:16 16
+Jun 29 19:24:25 7060 kernel: mxc_clocksource_init 24000000
+Jun 29 19:24:25 7060 kernel: Switching to timer-based delay loop, resolution 41ns
+Jun 29 19:24:25 7060 kernel: sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 89478484971ns
+Jun 29 19:24:25 7060 kernel: clocksource mxc_timer1: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 79635851949 ns
+Jun 29 19:24:25 7060 kernel: Console: colour dummy device 80x30
+Jun 29 19:24:25 7060 kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=240000)
+Jun 29 19:24:25 7060 kernel: pid_max: default: 32768 minimum: 301
+Jun 29 19:24:25 7060 kernel: Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jun 29 19:24:25 7060 kernel: Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+Jun 29 19:24:25 7060 kernel: CPU: Testing write buffer coherency: ok
+Jun 29 19:24:25 7060 kernel: CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Jun 29 19:24:25 7060 kernel: Setting up static identity map for 0x80008280 - 0x800082d8
+Jun 29 19:24:25 7060 kernel: Brought up 1 CPUs
+Jun 29 19:24:25 7060 kernel: SMP: Total of 1 processors activated (48.00 BogoMIPS).
+Jun 29 19:24:25 7060 kernel: CPU: All CPU(s) started in SVC mode.
+Jun 29 19:24:25 7060 kernel: devtmpfs: initialized
+Jun 29 19:24:25 7060 kernel: device-tree: Duplicate name in lcdif@021c8000, renamed to "display#1"
+Jun 29 19:24:25 7060 kernel: VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+Jun 29 19:24:25 7060 kernel: clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Jun 29 19:24:25 7060 kernel: pinctrl core: initialized pinctrl subsystem
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 16
+Jun 29 19:24:25 7060 kernel: DMA: preallocated 256 KiB pool for atomic coherent allocations
+Jun 29 19:24:25 7060 kernel: cpuidle: using governor ladder
+Jun 29 19:24:25 7060 kernel: cpuidle: using governor menu
+Jun 29 19:24:25 7060 kernel: hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Jun 29 19:24:25 7060 kernel: hw-breakpoint: maximum watchpoint size is 8 bytes.
+Jun 29 19:24:25 7060 kernel: imx6ul-pinctrl 20e0000.iomuxc: initialized IMX pinctrl driver
+Jun 29 19:24:25 7060 kernel: imx6ul-pinctrl 2290000.iomuxc-snvs: initialized IMX pinctrl driver
+Jun 29 19:24:25 7060 kernel: mxs-dma 1804000.dma-apbh: initialized
+Jun 29 19:24:25 7060 kernel: SCSI subsystem initialized
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver usbfs
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver hub
+Jun 29 19:24:25 7060 kernel: usbcore: registered new device driver usb
+Jun 29 19:24:25 7060 kernel: i2c i2c-1: IMX I2C adapter registered
+Jun 29 19:24:25 7060 kernel: i2c i2c-1: can't use DMA
+Jun 29 19:24:25 7060 kernel: media: Linux media interface: v0.10
+Jun 29 19:24:25 7060 kernel: Linux video capture interface: v2.00
+Jun 29 19:24:25 7060 kernel: pps_core: LinuxPPS API ver. 1 registered
+Jun 29 19:24:25 7060 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jun 29 19:24:25 7060 kernel: PTP clock support registered
+Jun 29 19:24:25 7060 kernel: MIPI CSI2 driver module loaded
+Jun 29 19:24:25 7060 kernel: Advanced Linux Sound Architecture Driver Initialized.
+Jun 29 19:24:25 7060 kernel: Bluetooth: Core ver 2.20
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 31
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI device and connection manager initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI socket layer initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: L2CAP socket layer initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: SCO socket layer initialized
+Jun 29 19:24:25 7060 kernel: Switched to clocksource mxc_timer1
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 2
+Jun 29 19:24:25 7060 kernel: TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+Jun 29 19:24:25 7060 kernel: TCP bind hash table entries: 2048 (order: 2, 16384 bytes)
+Jun 29 19:24:25 7060 kernel: TCP: Hash tables configured (established 2048 bind 2048)
+Jun 29 19:24:25 7060 kernel: UDP hash table entries: 256 (order: 1, 8192 bytes)
+Jun 29 19:24:25 7060 kernel: UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 1
+Jun 29 19:24:25 7060 kernel: RPC: Registered named UNIX socket transport module.
+Jun 29 19:24:25 7060 kernel: RPC: Registered udp transport module.
+Jun 29 19:24:25 7060 kernel: RPC: Registered tcp transport module.
+Jun 29 19:24:25 7060 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Jun 29 19:24:25 7060 kernel: imx rpmsg driver is registered.
+Jun 29 19:24:25 7060 kernel: Bus freq driver module loaded
+Jun 29 19:24:25 7060 kernel: futex hash table entries: 256 (order: 2, 16384 bytes)
+Jun 29 19:24:25 7060 kernel: VFS: Disk quotas dquot_6.6.0
+Jun 29 19:24:25 7060 kernel: VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Jun 29 19:24:25 7060 kernel: NFS: Registering the id_resolver key type
+Jun 29 19:24:25 7060 kernel: Key type id_resolver registered
+Jun 29 19:24:25 7060 kernel: Key type id_legacy registered
+Jun 29 19:24:25 7060 kernel: jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+Jun 29 19:24:25 7060 kernel: fuse init (API version 7.23)
+Jun 29 19:24:25 7060 kernel: io scheduler noop registered
+Jun 29 19:24:25 7060 kernel: io scheduler deadline registered
+Jun 29 19:24:25 7060 kernel: io scheduler cfq registered (default)
+Jun 29 19:24:25 7060 kernel: imx-weim 21b8000.weim: Driver registered.
+Jun 29 19:24:25 7060 liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="204" x-info="http://www.rsyslog.com"] start
+Jun 29 19:24:25 7060 kernel: backlight supply power not found, using dummy regulator
+Jun 29 19:24:25 7060 kernel: MIPI DSI driver module loaded
+Jun 29 19:24:25 7060 kernel: MIPI DSI driver module loaded
+Jun 29 19:24:25 7060 kernel: 21c8000.lcdif supply lcd not found, using dummy regulator
+Jun 29 19:24:25 7060 kernel: mxsfb 21c8000.lcdif: failed to find mxc display driver 
+Jun 29 19:24:25 7060 kernel: Console: switching to colour frame buffer device 60x34
+Jun 29 19:24:25 7060 kernel: mxsfb 21c8000.lcdif: initialized
+Jun 29 19:24:25 7060 kernel: imx-sdma 20ec000.sdma: no event needs to be remapped
+Jun 29 19:24:25 7060 kernel: imx-sdma 20ec000.sdma: loaded firmware 3.3
+Jun 29 19:24:25 7060 kernel: imx-sdma 20ec000.sdma: initialized
+Jun 29 19:24:25 7060 kernel: 2020000.serial: ttymxc0 at MMIO 0x2020000 (irq = 18, base_baud = 5000000) is a IMX
+Jun 29 19:24:25 7060 kernel: console [ttymxc0] enabled
+Jun 29 19:24:25 7060 kernel: imx-rng 2284000.rngb: iMX RNG Registered.
+Jun 29 19:24:25 7060 kernel: imx sema4 driver is registered.
+Jun 29 19:24:25 7060 kernel: [drm] Initialized drm 1.1.0 20060810
+Jun 29 19:24:25 7060 kernel: [drm] Initialized vivante 1.0.0 20120216 on minor 0
+Jun 29 19:24:25 7060 kernel: brd: module loaded
+Jun 29 19:24:25 7060 kernel: loop: module loaded
+Jun 29 19:24:25 7060 kernel: CAN device driver interface
+Jun 29 19:24:25 7060 kernel: 2188000.ethernet supply phy not found, using dummy regulator
+Jun 29 19:24:25 7060 kernel: pps pps0: new PPS source ptp0
+Jun 29 19:24:25 7060 kernel: libphy: fec_enet_mii_bus: probed
+Jun 29 19:24:25 7060 kernel: fec 2188000.ethernet eth0: registered PHC device 0
+Jun 29 19:24:25 7060 kernel: PPP generic driver version 2.4.2
+Jun 29 19:24:25 7060 kernel: PPP BSD Compression module registered
+Jun 29 19:24:25 7060 kernel: PPP Deflate Compression module registered
+Jun 29 19:24:25 7060 kernel: PPP MPPE Compression module registered
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 24
+Jun 29 19:24:25 7060 kernel: SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+Jun 29 19:24:25 7060 kernel: CSLIP: code copyright 1989 Regents of the University of California.
+Jun 29 19:24:25 7060 kernel: SLIP linefill/keepalive option.
+Jun 29 19:24:25 7060 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 29 19:24:25 7060 kernel: ehci-mxc: Freescale On-Chip EHCI Host driver
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver usb-storage
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver usb_ehset_test
+Jun 29 19:24:25 7060 kernel: 2184800.usbmisc supply vbus-wakeup not found, using dummy regulator
+Jun 29 19:24:25 7060 kernel: 2184200.usb supply vbus not found, using dummy regulator
+Jun 29 19:24:25 7060 kernel: ci_hdrc ci_hdrc.1: EHCI Host Controller
+Jun 29 19:24:25 7060 kernel: ci_hdrc ci_hdrc.1: new USB bus registered, assigned bus number 1
+Jun 29 19:24:25 7060 kernel: ci_hdrc ci_hdrc.1: USB 2.0 started, EHCI 1.00
+Jun 29 19:24:25 7060 kernel: hub 1-0:1.0: USB hub found
+Jun 29 19:24:25 7060 kernel: hub 1-0:1.0: 1 port detected
+Jun 29 19:24:25 7060 kernel: mousedev: PS/2 mouse device common for all mice
+Jun 29 19:24:25 7060 kernel: input: 20cc000.snvs:snvs-powerkey as /devices/platform/soc/2000000.aips-bus/20cc000.snvs/20cc000.snvs:snvs-powerkey/input/input0
+Jun 29 19:24:25 7060 kernel: tp reset gpio=131
+Jun 29 19:24:25 7060 kernel: ft5x06_ts: probe of 1-0038 failed with error 161
+Jun 29 19:24:25 7060 kernel: ft5x0x_ts_init successful
+Jun 29 19:24:25 7060 kernel: input: iMX6UL TouchScreen Controller as /devices/platform/soc/2000000.aips-bus/2040000.tsc/input/input1
+Jun 29 19:24:25 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: rtc core: registered 20cc000.snvs:snvs-r as rtc0
+Jun 29 19:24:25 7060 kernel: i2c /dev entries driver
+Jun 29 19:24:25 7060 kernel: IR NEC protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR RC5(x/sz) protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR RC6 protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR JVC protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR Sony protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR SANYO protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR Sharp protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR MCE Keyboard/mouse protocol handler initialized
+Jun 29 19:24:25 7060 kernel: IR XMP protocol handler initialized
+Jun 29 19:24:25 7060 kernel: pxp-v4l2 pxp_v4l2: initialized
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver uvcvideo
+Jun 29 19:24:25 7060 kernel: USB Video Class driver (1.1.1)
+Jun 29 19:24:25 7060 kernel: imx2-wdt 20bc000.wdog: use WDOG_B to reboot.
+Jun 29 19:24:25 7060 kernel: imx2-wdt 20bc000.wdog: timeout 60 sec (nowayout=0)
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI UART driver ver 2.3
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI UART protocol H4 registered
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI UART protocol BCSP registered
+Jun 29 19:24:25 7060 kernel: Bluetooth: HCI UART protocol ATH3K registered
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver btusb
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver ath3k
+Jun 29 19:24:25 7060 kernel: sdhci: Secure Digital Host Controller Interface driver
+Jun 29 19:24:25 7060 kernel: sdhci: Copyright(c) Pierre Ossman
+Jun 29 19:24:25 7060 kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Jun 29 19:24:25 7060 kernel: /soc/aips-bus@02100000/usdhc@02190000: voltage-ranges unspecified
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: could not get ultra high speed state, work on normal mode
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: Got CD GPIO
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vmmc regulator found
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2190000.usdhc: No vqmmc regulator found
+Jun 29 19:24:25 7060 kernel: mmc0: SDHCI controller on 2190000.usdhc [2190000.usdhc] using ADMA
+Jun 29 19:24:25 7060 kernel: /soc/aips-bus@02100000/usdhc@02194000: voltage-ranges unspecified
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vmmc regulator found
+Jun 29 19:24:25 7060 kernel: sdhci-esdhc-imx 2194000.usdhc: No vqmmc regulator found
+Jun 29 19:24:25 7060 kernel: usb 1-1: new high-speed USB device number 2 using ci_hdrc
+Jun 29 19:24:25 7060 kernel: mmc0: host does not support reading read-only switch, assuming write-enable
+Jun 29 19:24:25 7060 kernel: mmc1: SDHCI controller on 2194000.usdhc [2194000.usdhc] using ADMA
+Jun 29 19:24:25 7060 kernel: mmc0: new high speed SDHC card at address aaaa
+Jun 29 19:24:25 7060 kernel: mmcblk0: mmc0:aaaa SS16G 14.8 GiB 
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver usbhid
+Jun 29 19:24:25 7060 kernel: mmcblk0: p1 p2
+Jun 29 19:24:25 7060 kernel: usbhid: USB HID core driver
+Jun 29 19:24:25 7060 kernel: usbcore: registered new interface driver snd-usb-audio
+Jun 29 19:24:25 7060 kernel: fsl-asrc 2034000.asrc: driver registered
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 26
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 10
+Jun 29 19:24:25 7060 kernel: sit: IPv6 over IPv4 tunneling driver
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 17
+Jun 29 19:24:25 7060 kernel: can: controller area network core (rev 20120528 abi 9)
+Jun 29 19:24:25 7060 kernel: NET: Registered protocol family 29
+Jun 29 19:24:25 7060 kernel: can: raw protocol (rev 20120528)
+Jun 29 19:24:25 7060 kernel: can: broadcast manager protocol (rev 20120528 t)
+Jun 29 19:24:25 7060 kernel: can: netlink gateway (rev 20130117) max_hops=1
+Jun 29 19:24:25 7060 kernel: hub 1-1:1.0: USB hub found
+Jun 29 19:24:25 7060 kernel: hub 1-1:1.0: 2 ports detected
+Jun 29 19:24:25 7060 kernel: Bluetooth: RFCOMM TTY layer initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: RFCOMM socket layer initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: RFCOMM ver 1.11
+Jun 29 19:24:25 7060 kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Jun 29 19:24:25 7060 kernel: Bluetooth: BNEP filters: protocol multicast
+Jun 29 19:24:25 7060 kernel: Bluetooth: BNEP socket layer initialized
+Jun 29 19:24:25 7060 kernel: Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+Jun 29 19:24:25 7060 kernel: Bluetooth: HIDP socket layer initialized
+Jun 29 19:24:25 7060 kernel: 8021q: 802.1Q VLAN Support v1.8
+Jun 29 19:24:25 7060 kernel: Key type dns_resolver registered
+Jun 29 19:24:25 7060 kernel: dhd_module_init in
+Jun 29 19:24:25 7060 kernel: snvs_rtc 20cc000.snvs:snvs-rtc-lp: setting system clock to 1970-01-01 00:00:00 UTC (0)
+Jun 29 19:24:25 7060 kernel: fec 2188000.ethernet eth0: Freescale FEC PHY driver [Generic PHY] (mii_bus:phy_addr=2188000.ethernet:00, irq=-1)
+Jun 29 19:24:25 7060 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Jun 29 19:24:25 7060 kernel: usb 1-1.1: new high-speed USB device number 3 using ci_hdrc
+Jun 29 19:24:25 7060 kernel: fec 2188000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+Jun 29 19:24:25 7060 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Jun 29 19:24:25 7060 kernel: IP-Config: Complete:
+Jun 29 19:24:25 7060 kernel:     device=eth0, hwaddr=22:17:b3:6b:e7:3c, ipaddr=192.168.50.100, mask=255.255.255.0, gw=192.168.50.1
+Jun 29 19:24:25 7060 kernel:     host=192.168.50.100, domain=, nis-domain=(none)
+Jun 29 19:24:25 7060 kernel:     bootserver=192.168.50.21, rootserver=192.168.50.21, rootpath=
+Jun 29 19:24:25 7060 kernel: gpio_dvfs: disabling
+Jun 29 19:24:25 7060 kernel: VSD_3V3: disabling
+Jun 29 19:24:25 7060 kernel: can-3v3: disabling
+Jun 29 19:24:25 7060 kernel: ALSA device list:
+Jun 29 19:24:25 7060 kernel:  No soundcards found.
+Jun 29 19:24:25 7060 kernel: VFS: Mounted root (nfs filesystem) on device 0:14.
+Jun 29 19:24:25 7060 kernel: devtmpfs: mounted
+Jun 29 19:24:25 7060 kernel: Freeing unused kernel memory: 432K (80b3a000 - 80ba6000)
+Jun 29 19:24:25 7060 kernel: random: systemd urandom read with 81 bits of entropy available
+Jun 29 19:24:25 7060 kernel: random: nonblocking pool is initialized

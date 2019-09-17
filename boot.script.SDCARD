@@ -1,0 +1,4 @@
+setenv bootargs console=${console},${baudrate} root=/dev/mmcblk0p2 rw rootfstype=ext4 rootwait
+load mmc 0:1 0x83000000 /boot/zImage
+load mmc 0:1 0x84000000 /boot/mys-imx6ull-14x14-evk-emmc.dtb
+bootz 0x83000000 - 0x84000000
